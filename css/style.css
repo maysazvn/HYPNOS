@@ -4,6 +4,36 @@ body {
     background-color: #191919;
 }
 
+p {
+    font-family: "Baloo Bhai 2", sans-serif;
+    color: #D0D0D0;
+    font-size: 18px;
+}
+
+h1.h1-azul {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-size: 55px;
+    margin: 30px auto;
+    color: #6D80D4;
+    background-color: #1C2D76;
+    border-radius: 100px;
+    width: 680px;
+    text-align: center;
+}
+
+h1.h1-roxo {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-size: 55px;
+    margin: 30px auto;
+    color: #8663D2;
+    background-color: #3C2370;
+    border-radius: 100px;
+    width: 680px;
+    text-align: center;
+}
+
 /* 1-home.html */
 
 .parte-azul {
@@ -92,15 +122,15 @@ button {
     position: relative;
 }
 
-button.insta{
+button.insta {
     background-color: #687DD8;
 }
 
-button.face{
+button.face {
     background-color: #726EE2;
 }
 
-button.twt{
+button.twt {
     background-color: #8663D2;
 }
 
@@ -109,3 +139,68 @@ button:hover {
     transition: transform 0.2s ease-in-out;
 
 }
+
+/* 7-areadecontatoeajuda.html*/
+h2 {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-size: 50px;
+    margin: 10px;
+    margin-left: 50px;
+    color: #1C2D76;
+}
+
+    details{
+        transition: transform 0.2s ease-in-out;
+    }
+
+    summary {
+        font-family: "Baloo Bhai 2", sans-serif;
+        color: #D0D0D0;
+        font-size: 25px;
+        margin: 10px;
+        margin-left: 50px;
+        list-style: none;
+        width: 530px;
+        border-bottom: 4px solid #1C2D76;
+        padding-bottom: 18px;
+    }
+
+    #p1{ 
+        margin-left: 25px;
+    }
+
+    #p2{ 
+        margin-left: 73px;
+    }
+
+    #p3{ 
+        margin-left: 167px;
+    }
+
+    #p4{ 
+        margin-left: 79px;
+    }
+
+    #p5{ 
+        margin-left: 109px;
+    }
+
+    #p6{ 
+        margin-left: 84px;
+    }
+
+
+    p.expansao {
+        font-family: "Baloo Bhai 2", sans-serif;
+        color: #7B7B7B;
+        font-size: 20px;
+        margin: 20px;
+        margin-left: 70px;
+    }
+
+    p.expansao a {
+        font-family: "Baloo Bhai 2", sans-serif;
+        color: #1C2D76;
+        font-size: 20px;
+    }
