@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #191919; 
+    background-color: #191919;
 }
 
 p {
@@ -34,35 +34,76 @@ h1.h1-roxo {
     text-align: center;
 }
 
+/* footer */
+footer {
+    background-color: #23173F;
+    padding: 1vw;
+    margin: 5vw 0 0 0 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline; /*Não applicado por hora*/
+}
+
+
+.copyright {
+    font-size: 15px;
+    color: #56349F;
+}
+
+.esquerda-footer {
+    display: block;
+}
+
+footer nav a{
+font-size: 1.5vw;
+margin: 2px;
+color: #56349F;
+}
+
+.hypnos {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: #56349F;
+}
+
+footer nav button a{
+    font-size: 2vw;
+}
+
+
+
 /* 1-home.html */
 
 .parte-azul {
     background-color: #1C2D76;
+    background: url(../imagens/enxoval.png) no-repeat, #1C2D76;
+    background-size: 100% auto, auto;
     display: flex;
     width: 90%;
     margin: 30px auto;
     border-radius: 30px;
-    padding: 30px;
+    padding: 40vw 0 10vw 5vw;
+    color: white;
 }
 
-.esquerda{
+.esquerda {
     display: block;
 }
+
+
 
 .parte-azul h1 {
     font-family: "Emilys Candy", serif;
     font-weight: 400;
-    font-size: 180px;
+    font-size: 140px;
     color: #0D1745;
-    box-shadow: #6D80D4;
-    margin-top: 1000px;
-    margin-left: -130rem;
 }
 
 .parte-azul img {
-     width: 100%;
-     border-radius: 30px;
-     margin: -30px;
+    width: 100%;
+    border-radius: 30px;
+    margin: -30px;
 }
 
 .parte-azul p {
@@ -70,26 +111,26 @@ h1.h1-roxo {
     font-weight: 500;
     font-size: 40px;
     color: #6D80D4;
-    margin-top: -145px;
-    margin-left: -110rem;
     position: absolute;
+    margin: -5vw 0 0 12vw
 }
+
 
 .parte-roxa {
     background-color: #56349F;
-    width: 22%;
-    height: 50%;
+    width: 32%;
+    /*height: 50%;*/
     padding: 40px;
     display: block;
-    margin-left: 650px;
-    margin-top: 50px;
+   /* margin-left: 650px;
+    margin-top: 50px;*/
     border-radius: 30px;
 }
 
 .parte-roxa h2 {
     font-family: "Abhaya Libre", serif;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 40px;
     color: #191919;
     text-align: center;
     margin: 0;
@@ -98,7 +139,7 @@ h1.h1-roxo {
 .parte-roxa p {
     font-family: "Baloo Bhai 2", sans-serif;
     color: #23173F;
-    font-size: 18px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -107,12 +148,11 @@ h1.h1-roxo {
     color: #56349F;
     font-family: "Abhaya Libre", serif;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 30px;
     border-radius: 100px;
     border: none;
-    padding: 5px 10px 5px 10px;
+    padding: 10px 15px 10px 15px;
     display: block;
-    margin: auto;
 }
 
 .parte-roxa button:hover {
@@ -121,16 +161,20 @@ h1.h1-roxo {
 
 }
 
+.botoes {
+    display: block;
+}
+
 button {
     display: block;
-    margin: 15px;
-    font-size: 20px;
+    margin: 1vw;
+    font-size: 30px;
     font-family: "Baloo Bhai 2", sans-serif;
     border-radius: 40px;
     border: none;
     padding: 0 12px 0 12px;
     color: #191919;
-    position: relative;
+
 }
 
 button.insta {
@@ -151,6 +195,17 @@ button:hover {
 
 }
 
+
+section.convite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
 /* 7-areadecontatoeajuda.html*/
 h2 {
     font-family: "Abhaya Libre", serif;
@@ -161,57 +216,57 @@ h2 {
     color: #1C2D76;
 }
 
-    details{
-        transition: transform 0.2s ease-in-out;
-    }
+details {
+    transition: transform 0.2s ease-in-out;
+}
 
-    summary {
-        font-family: "Baloo Bhai 2", sans-serif;
-        color: #D0D0D0;
-        font-size: 25px;
-        margin: 10px;
-        margin-left: 50px;
-        list-style: none;
-        width: 530px;
-        border-bottom: 4px solid #1C2D76;
-        padding-bottom: 18px;
-    }
+summary {
+    font-family: "Baloo Bhai 2", sans-serif;
+    color: #D0D0D0;
+    font-size: 25px;
+    margin: 10px;
+    margin-left: 50px;
+    list-style: none;
+    width: 530px;
+    border-bottom: 4px solid #1C2D76;
+    padding-bottom: 18px;
+}
 
-    #p1{ 
-        margin-left: 25px;
-    }
+#p1 {
+    margin-left: 25px;
+}
 
-    #p2{ 
-        margin-left: 73px;
-    }
+#p2 {
+    margin-left: 73px;
+}
 
-    #p3{ 
-        margin-left: 167px;
-    }
+#p3 {
+    margin-left: 167px;
+}
 
-    #p4{ 
-        margin-left: 79px;
-    }
+#p4 {
+    margin-left: 79px;
+}
 
-    #p5{ 
-        margin-left: 109px;
-    }
+#p5 {
+    margin-left: 109px;
+}
 
-    #p6{ 
-        margin-left: 84px;
-    }
+#p6 {
+    margin-left: 84px;
+}
 
 
-    p.expansao {
-        font-family: "Baloo Bhai 2", sans-serif;
-        color: #7B7B7B;
-        font-size: 20px;
-        margin: 20px;
-        margin-left: 70px;
-    }
+p.expansao {
+    font-family: "Baloo Bhai 2", sans-serif;
+    color: #7B7B7B;
+    font-size: 20px;
+    margin: 20px;
+    margin-left: 70px;
+}
 
-    p.expansao a {
-        font-family: "Baloo Bhai 2", sans-serif;
-        color: #1C2D76;
-        font-size: 20px;
-    }
+p.expansao a {
+    font-family: "Baloo Bhai 2", sans-serif;
+    color: #1C2D76;
+    font-size: 20px;
+}
