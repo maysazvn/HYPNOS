@@ -72,6 +72,18 @@ footer nav button a{
     font-size: 2vw;
 }
 
+/*header*/
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li{
+    display: flex;
+     margin: 0 10vw 0 10vw;
+}
+
 
 
 /* index.html */
