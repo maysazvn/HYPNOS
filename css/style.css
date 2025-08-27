@@ -77,13 +77,13 @@ header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #23173F;
 }
 
 header nav ul li{
     display: flex;
      margin: 0 10vw 0 10vw;
-}
-
+} /* /* pedir ajuda para o kennedy */
 
 
 /* index.html */
@@ -228,6 +228,12 @@ section.convite{
     margin: auto;
     padding: 5vw 5vw;
     max-width: 75vw;
+ }
+
+ img.carrossel{
+    max-width: 20vw;
+    border-radius: 10px;
+    margin: auto;
  }
 
 /* 7-areadecontatoeajuda.html*/
