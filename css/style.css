@@ -7,7 +7,7 @@ body {
 p {
     font-family: "Baloo Bhai 2", sans-serif;
     color: #D0D0D0;
-    font-size: 20px;
+    font-size: 30px;
     max-width: 50vw;
 }
 
@@ -47,7 +47,7 @@ footer {
 
 
 .copyright {
-    font-size: 15px;
+    font-size: 20px;
     color: #56349F;
 }
 
@@ -70,6 +70,10 @@ color: #56349F;
 
 footer nav button a{
     font-size: 2vw;
+}
+
+p.nomes{
+    font-size: 20px;
 }
 
 /*header*/
@@ -212,29 +216,105 @@ section.convite{
 }
 
 /* 2-oqueésono.html */
- body.conteudo{
-    padding: 1.5vw;
- }
 
  p.introducao{
-    text-align: center;
-    max-width: 50vw;
+    max-width: 70vw;
     margin: auto;
-    color: #7B7B7B;
+    color: #D0D0D0;
  }
 
- div.conteudo{
-    margin: 2vw 5vw 5vw 5vw;
-    margin: auto;
+ div.conteudo-azul{
+    margin: 2vw auto;
     padding: 5vw 5vw;
-    max-width: 75vw;
+    max-width: 50vw;
+    background-color: #0D1745;
  }
+
+  div.conteudo-roxo{
+    margin: 2vw auto;
+    padding: 5vw 5vw;
+    max-width: 50vw;
+    background-color: #23173F;
+ }
+
 
  img.carrossel{
     max-width: 20vw;
     border-radius: 10px;
     margin: auto;
  }
+ /*4-bonsemaushabitos.html*/
+
+ section.inicio-4 p{
+    text-align: center;
+ }
+
+ div.bonsEMausHabitos{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+ }
+
+ h2.h2-4 {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-size: 50px;
+    margin: 10px 0;
+    color: #D0D0D0;
+}
+
+section.bons{
+    text-align: center;
+    background-color: #54B268;
+    margin: 2vw;
+    padding: 2vw;
+    border-radius: 50px;
+}
+
+section.maus{
+    text-align: center;
+    background-color: #B25454;
+    margin: 2vw;
+    padding: 2vw;
+    border-radius: 50px;
+}
+
+section.bons p {
+    color: #165E26;
+}
+
+section.bons h2 {
+    color: #165E26;
+}
+
+section.maus p{
+    color: #5E1616;
+}
+
+section.maus h2{
+    color: #5E1616;
+}
+
+section.bons img{
+    width: 15%;
+    display: block;
+    margin: auto;
+}
+
+section.maus img{
+    width: 15%;
+    display: block;
+    margin: auto;
+}
+
+img{
+    width: 50%;
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+}
+
 
 /* 7-areadecontatoeajuda.html*/
 h2.h2-azul {
@@ -242,7 +322,7 @@ h2.h2-azul {
     font-weight: 800;
     font-size: 50px;
     margin: 10px 0;
-    color: #1C2D76;
+    color: #6D80D4;
 }
 
 h2.h2-roxo {
@@ -250,11 +330,7 @@ h2.h2-roxo {
     font-weight: 800;
     font-size: 50px;
     margin: 10px 0;
-    color: #3C2370
-}
-
-details {
-    transition: transform 0.2s ease-in-out;
+    color:  #8663D2;
 }
 
 summary {
@@ -262,11 +338,14 @@ summary {
     color: #D0D0D0;
     font-size: 25px;
     margin: 10px;
-    margin-left: 50px;
     list-style: none;
     width: 530px;
     border-bottom: 4px solid #1C2D76;
     padding-bottom: 18px;
+}
+
+section.faq{
+    padding: 0 5vw;
 }
 
 #p1 {
