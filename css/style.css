@@ -84,10 +84,47 @@ header nav{
     background-color: #23173F;
 }
 
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+}
+
 header nav ul li{
     display: flex;
-     margin: 0 10vw 0 10vw;
-} /* /* pedir ajuda para o kennedy */
+     margin: 0 0.5vw 0 0.5vw;
+     font-family: "Baloo Bhai 2", sans-serif;
+    color: #D0D0D0;
+    font-size: 20px;
+} 
+
+
+header nav ul li ul{
+    display: none;
+} 
+
+header nav ul li a{
+    text-decoration: none; 
+    text-align: center;
+    color: inherit;
+    background-color: #3C2370;
+    border-radius: 50px;
+    padding: 10px;
+    white-space: nowrap;
+    min-width: 120px;
+} 
+
+header nav ul li a:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+    color: #23173F;
+} 
+
+header nav ul li.sub{
+    display: none;
+}
 
 
 /* index.html */
