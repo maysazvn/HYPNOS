@@ -11,6 +11,10 @@ p {
     max-width: 50vw;
 }
 
+p.introducao{
+    text-align: center;
+}
+
 h1.h1-azul {
     font-family: "Abhaya Libre", serif;
     font-weight: 800;
@@ -35,14 +39,31 @@ h1.h1-roxo {
     text-align: center;
 }
 
-/* footer */
+h2.h2-azul {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-size: 50px;
+    margin: 10px 0;
+    color: #6D80D4;
+}
+
+h2.h2-roxo {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-size: 50px;
+    margin: 10px 0;
+    color: #8663D2;
+}
+
+/* -----footer----- */
 footer {
     background-color: #23173F;
     padding: 1vw;
-    margin: 5vw 0 0 0 ;
+    margin: 5vw 0 0 0;
     display: flex;
     justify-content: space-around;
-    align-items: baseline; /*Não applicado por hora*/
+    align-items: baseline;
+    /*Ver no atendimento dev web*/
 }
 
 
@@ -55,10 +76,10 @@ footer {
     display: block;
 }
 
-footer nav a{
-font-size: 1.5vw;
-margin: 2px;
-color: #56349F;
+footer nav a {
+    font-size: 1.5vw;
+    margin: 2px;
+    color: #56349F;
 }
 
 .hypnos {
@@ -68,16 +89,29 @@ color: #56349F;
     color: #56349F;
 }
 
-footer nav button a{
+footer nav button a {
     font-size: 2vw;
 }
 
-p.nomes{
+p.nomes {
     font-size: 20px;
 }
 
-/*header*/
-header nav{
+div.botoes-footer{
+    display: flex;
+}
+
+div.botoes-footer button{
+    font-size: 25px;
+    color: #56349F;
+}
+
+/*-----header-----*/
+header img.header{
+    width: 4vw;
+    margin-left: 25px;
+}
+header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -91,31 +125,31 @@ header nav ul {
     gap: 5px;
 }
 
-header nav ul li{
+header nav ul li {
     position: relative;
     display: flex;
-     margin: 0 0.5vw 0 0.5vw;
-     font-family: "Baloo Bhai 2", sans-serif;
+    margin: 0 0.5vw 0 0.5vw;
+    font-family: "Baloo Bhai 2", sans-serif;
     color: #D0D0D0;
     font-size: 20px;
-} 
+}
 
-header nav ul li ul{
+header nav ul li ul {
     display: none;
     background-color: #3C2370;
     border-radius: 50px;
     padding: 5px 5px;
     top: 100%;
-     margin-top: 5px;
-} 
+    margin-top: 5px;
+}
 
 header nav ul li:hover ul {
     display: block;
     position: absolute;
 }
 
-header nav ul li a{
-    text-decoration: none; 
+header nav ul li a {
+    text-decoration: none;
     text-align: center;
     color: inherit;
     background-color: #3C2370;
@@ -123,17 +157,17 @@ header nav ul li a{
     padding: 10px;
     white-space: nowrap;
     min-width: 120px;
-} 
+}
 
-header nav ul li a:hover{
+header nav ul li a:hover {
     transform: scale(1.1);
     transition: 0.2s ease-in-out;
     color: #23173F;
-} 
+}
 
 
 
-/* index.html */
+/* -----index.html----- */
 
 .parte-azul {
     background-color: #1C2D76;
@@ -212,6 +246,11 @@ header nav ul li a:hover{
     margin: auto;
 }
 
+.parte-roxa button a{
+    color: #56349F;
+    text-decoration: none;
+}
+
 .parte-roxa button:hover {
     transform: scale(0.95);
     transition: transform 0.2s ease-in-out;
@@ -231,15 +270,15 @@ button {
     border: none;
     padding: 0 12px 0 12px;
     color: #191919;
+}
 
+button a{
+    text-decoration: none;
+    color: inherit;
 }
 
 button.insta {
     background-color: #687DD8;
-}
-
-button.face {
-    background-color: #726EE2;
 }
 
 button.twt {
@@ -252,54 +291,55 @@ button:hover {
 
 }
 
-section.convite{
+section.convite {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* 2-oqueésono.html */
+/* -----2-oqueésono.html----- */
 
- p.introducao{
+p.introducao {
     max-width: 70vw;
     margin: auto;
     color: #D0D0D0;
- }
+}
 
- div.conteudo-azul{
+div.conteudo-azul {
     margin: 2vw auto;
     padding: 5vw 5vw;
     max-width: 50vw;
     background-color: #0D1745;
- }
+}
 
-  div.conteudo-roxo{
+div.conteudo-roxo {
     margin: 2vw auto;
     padding: 5vw 5vw;
     max-width: 50vw;
     background-color: #23173F;
- }
+}
 
 
- img.carrossel{
+img.carrossel {
     max-width: 20vw;
     border-radius: 10px;
     margin: auto;
- }
- /*4-bonsemaushabitos.html*/
+}
 
- section.inicio-4 p{
+/*-----4-bonsemaushabitos.html-----*/
+
+section.inicio-4 p {
     text-align: center;
- }
+}
 
- div.bonsEMausHabitos{
+div.bonsEMausHabitos {
     display: flex;
     justify-content: space-between;
     margin: auto;
     width: 90%;
- }
+}
 
- h2.h2-4 {
+h2.h2-4 {
     font-family: "Abhaya Libre", serif;
     font-weight: 800;
     font-size: 50px;
@@ -307,7 +347,7 @@ section.convite{
     color: #D0D0D0;
 }
 
-section.bons{
+section.bons {
     text-align: center;
     background-color: #54B268;
     margin: 2vw;
@@ -315,7 +355,7 @@ section.bons{
     border-radius: 50px;
 }
 
-section.maus{
+section.maus {
     text-align: center;
     background-color: #B25454;
     margin: 2vw;
@@ -331,50 +371,62 @@ section.bons h2 {
     color: #165E26;
 }
 
-section.maus p{
+section.maus p {
     color: #5E1616;
 }
 
-section.maus h2{
+section.maus h2 {
     color: #5E1616;
 }
 
-section.bons img{
+section.bons img {
     width: 15%;
     display: block;
     margin: auto;
 }
 
-section.maus img{
+section.maus img {
     width: 15%;
     display: block;
     margin: auto;
 }
 
-img{
+img {
     width: 50%;
     display: block;
     margin: auto;
     border-radius: 50px;
 }
 
-
-/* 7-areadecontatoeajuda.html*/
-h2.h2-azul {
-    font-family: "Abhaya Libre", serif;
-    font-weight: 800;
-    font-size: 50px;
-    margin: 10px 0;
-    color: #6D80D4;
+/*-----4.1-rotinaidealdosono.html-----*/
+section.rotina ul {
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 30px;
+    max-width: 50vw;
 }
 
-h2.h2-roxo {
-    font-family: "Abhaya Libre", serif;
-    font-weight: 800;
-    font-size: 50px;
-    margin: 10px 0;
-    color:  #8663D2;
+section.rotina ul li{
+    color: #8663D2;
+    font-weight: bold;
 }
+
+section.rotina2 ol {
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 30px;
+    max-width: 50vw;
+}
+
+section.rotina2 ol li{
+    color: #D0D0D0;
+    font-weight: bold;
+}
+
+section.rotina2 ul li{
+    color: #8663D2;
+    font-weight: bold;
+}
+
+/* -----7-areadecontatoeajuda.html-----*/
 
 summary {
     font-family: "Baloo Bhai 2", sans-serif;
@@ -387,7 +439,7 @@ summary {
     padding-bottom: 18px;
 }
 
-section.faq{
+section.faq {
     padding: 0 5vw;
 }
 
@@ -415,6 +467,8 @@ section.faq{
     margin-left: 84px;
 }
 
+/* Ver no atendimento dev web*/
+
 
 p.expansao {
     font-family: "Baloo Bhai 2", sans-serif;
@@ -430,9 +484,14 @@ p.expansao a {
     font-size: 20px;
 }
 
- /*8-sobrenos.html*/
-ul li{
+/*-----8-sobrenos.html-----*/
+ul li {
     color: #3C2370;
+}
+
+img.logo{
+    width: 15vw;
+    border-radius: 100%;
 }
 
 @media screen and (max-width: 900px) {
@@ -440,6 +499,5 @@ ul li{
 
     /*obs dica da hali: repetir o menu no html e dps botar 
     <button onclick="menuShow()"> </button> ><img class="icon" src="../imagens/menu.png"></button>
-    e fazer javascript pra mostrrar*/
+    e fazer javascript pra mostrar*/
 }
-

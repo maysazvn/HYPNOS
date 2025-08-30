@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ</title>
+    <title>Sobre nós</title>
 
     <link rel="stylesheet" href="../css/style.css">
 
@@ -21,7 +21,7 @@
 
     <header>
             <nav>
-                <img src="" alt="Logo">
+                <img src="../imagens/logo.png" alt="Logo" class="header">
                     <ul>
                         <li>
                             <a href="index.html">Início</a>
@@ -30,7 +30,7 @@
                             <a href="2-oqueésono.html">O que é sono?</a>
                         </li>
                         <li>
-                            <a href="3-sonoesaudemental.html">Saúde mental</a>
+                            <a href="3-sonoesaudemental.html">Saúde mental <i class="fa-solid fa-chevron-down"></i></a>
 
                             <ul>
                                 <li class="sub">
@@ -39,7 +39,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="4-bonsemaushabitos.html">Hábitos</a>
+                            <a href="4-bonsemaushabitos.html">Hábitos <i class="fa-solid fa-chevron-down"></i></a>
 
                             <ul>
                                 <li class="sub">
@@ -72,6 +72,8 @@
                   Sobre Nós  
             </h1>
 
+            <img src="../imagens/logo2.png" alt="Logo" class="logo">
+
             <p class="introducao">
                 Somos um grupo de 5 estudantes do Instituto Federal Catarinense (IFC). Este site foi desenvolvido
                 como parte de um trabalho escolar com o objetivo de compartilhar informações e conscientizar sobre a
@@ -90,7 +92,7 @@
         </header>
 
         <section>
-            <div class="conteudo">
+            <div class="conteudo-roxo">
                 <h2 class="h2-roxo">
                     Maysa Bagnhuk Machado
                 </h2>
@@ -98,7 +100,7 @@
                 <ul>
                     <li>
                         <p>
-                            Liderança do grupo
+                            Liderança do projeto
                         </p>
                     </li>
                     <li>
@@ -179,6 +181,57 @@
         </section>
 
     </main>
+<footer>
+        <div class="esquerda-footer">
+            <nav class="botoes-redes">
+                <a href=""><span class="fa-brands fa-square-facebook"></span></a>
+                <a href=""><span class="fa-brands fa-instagram"></span></a>
+                <a href=""><span class="fa-brands fa-twitter"></span></a>
+            </nav>
+
+            <p class="hypnos">Hypnos</p>
+            <p class="nomes">Maysa Bagnhuk Machado, Samuel Fortunato Gadotti, <br>
+                Clara Kellermann dos Santos, Pietro Reichow Fonseca, <br>
+                André Kosmala</p>
+            <p class="copyright">Copyright ©2025 All rights reserved</p>
+        </div>
+
+        <div class="meio">
+            <form action="#">
+                <h2 class="hypnos">Quer entrar em contato?</h2>
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome">
+                </p>
+
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                </p>
+
+                <p>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem"></textarea>
+                </p>
+
+                <div class="botoes-footer">
+                    <button type="reset">
+                        Apagar
+                    </button>
+                    <button type="submit">
+                        Enviar
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <nav>
+            <button>
+                <a href="#topo"><i class="fa-solid fa-chevron-up"></i></a>
+            </button>
+        </nav>
+    </footer>
 
 </body>
 
