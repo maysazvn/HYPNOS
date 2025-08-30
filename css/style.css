@@ -89,10 +89,10 @@ header nav ul {
     align-items: center;
     justify-content: center;
     gap: 5px;
-
 }
 
 header nav ul li{
+    position: relative;
     display: flex;
      margin: 0 0.5vw 0 0.5vw;
      font-family: "Baloo Bhai 2", sans-serif;
@@ -100,10 +100,19 @@ header nav ul li{
     font-size: 20px;
 } 
 
-
 header nav ul li ul{
     display: none;
+    background-color: #3C2370;
+    border-radius: 50px;
+    padding: 5px 5px;
+    top: 100%;
+     margin-top: 5px;
 } 
+
+header nav ul li:hover ul {
+    display: block;
+    position: absolute;
+}
 
 header nav ul li a{
     text-decoration: none; 
@@ -122,9 +131,6 @@ header nav ul li a:hover{
     color: #23173F;
 } 
 
-header nav ul li.sub{
-    display: none;
-}
 
 
 /* index.html */
@@ -427,5 +433,13 @@ p.expansao a {
  /*8-sobrenos.html*/
 ul li{
     color: #3C2370;
+}
+
+@media screen and (max-width: 900px) {
+    /*geral*/
+
+    /*obs dica da hali: repetir o menu no html e dps botar 
+    <button onclick="menuShow()"> </button> ><img class="icon" src="../imagens/menu.png"></button>
+    e fazer javascript pra mostrrar*/
 }
 
