@@ -556,7 +556,7 @@ p {
     font-family: "Baloo Bhai 2", sans-serif;
     color: #D0D0D0;
     font-size: 20px;
-    max-width: 50vw;
+    max-width: 80vw;
 }
 
 p.introducao{
@@ -564,43 +564,19 @@ p.introducao{
 }
 
 h1.h1-azul {
-    font-family: "Abhaya Libre", serif;
-    font-weight: 800;
-    font-size: 55px;
-    margin: 20px auto;
-    color: #6D80D4;
-    background-color: #1C2D76;
-    border-radius: 100px;
-    max-width: fit-content;
-    text-align: center;
+    font-size: 40px;
 }
 
 h1.h1-roxo {
-    font-family: "Abhaya Libre", serif;
-    font-weight: 800;
-    font-size: 55px;
-    margin: 30px auto;
-    color: #8663D2;
-    background-color: #3C2370;
-    border-radius: 100px;
-    max-width: fit-content;
-    text-align: center;
+    font-size: 40px;
 }
 
 h2.h2-azul {
-    font-family: "Abhaya Libre", serif;
-    font-weight: 800;
-    font-size: 50px;
-    margin: 10px 0;
-    color: #6D80D4;
+    font-size: 35px;
 }
 
 h2.h2-roxo {
-    font-family: "Abhaya Libre", serif;
-    font-weight: 800;
-    font-size: 50px;
-    margin: 10px 0;
-    color: #8663D2;
+    font-size: 35px;
 }
 
 button a.fontes{
@@ -640,15 +616,12 @@ footer {
     background-color: #23173F;
     padding: 1vw;
     margin: 5vw 0 0 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: baseline;
-    /*Ver no atendimento dev web*/
+    display: block;
 }
 
 
 .copyright {
-    font-size: 20px;
+    font-size: 15px;
     color: #56349F;
 }
 
@@ -657,7 +630,7 @@ footer {
 }
 
 footer nav a {
-    font-size: 1.5vw;
+    font-size: 5vw;
     margin: 2px;
     color: #56349F;
 }
@@ -687,63 +660,7 @@ div.botoes-footer button{
 }
 
 /*-----header-----*/
-header img.header{
-    width: 4vw;
-    margin-left: 25px;
-}
-header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #0D1745;
-}
 
-header nav ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-}
-
-header nav ul li {
-    position: relative;
-    display: flex;
-    margin: 0 0.5vw 0 0.5vw;
-    font-family: "Baloo Bhai 2", sans-serif;
-    color: #D0D0D0;
-    font-size: 20px;
-}
-
-header nav ul li ul {
-    display: none;
-    background-color: #1C2D76;
-    border-radius: 50px;
-    padding: 5px 5px;
-    top: 100%;
-    margin-top: 3px;
-}
-
-header nav ul li:hover ul {
-    display: block;
-    position: absolute;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    text-align: center;
-    color: inherit;
-    background-color: #1C2D76;
-    border-radius: 50px;
-    padding: 10px;
-    white-space: nowrap;
-    min-width: 120px;
-}
-
-header nav ul li a:hover {
-    transform: scale(0.9);
-    transition: 0.2s ease-in-out;
-    color: #0D1745;
-}
 
 
 
@@ -888,23 +805,27 @@ p.introducao {
 div.conteudo-azul {
     margin: 2vw auto;
     padding: 5vw 5vw;
-    max-width: 50vw;
+    max-width: 100%;
     background-color: #0D1745;
 }
 
 div.conteudo-roxo {
     margin: 2vw auto;
     padding: 5vw 5vw;
-    max-width: 50vw;
+    max-width: 100%;
     background-color: #23173F;
 }
 
 
 img.carrossel {
-    max-width: 20vw;
+    max-width: 100vw;
     border-radius: 10px;
     margin: auto;
 }
+
+iframe{
+    width: 50%;
+} /*aqui*/
 
 /*-----4-bonsemaushabitos.html-----*/
 
@@ -1100,4 +1021,5 @@ img.logo{
 pagina bons e maus habitos: pontinhos da ul nao somem, um botao só n fica no centro
 pagina faq: como deixar setas todas no mesmo lugar
 footer: botao de topo nao fica embaixo
+para celular: diminuir escala de vídeo
 */
