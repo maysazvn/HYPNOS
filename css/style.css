@@ -115,7 +115,7 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #23173F;
+    background-color: #0D1745;
 }
 
 header nav ul {
@@ -136,11 +136,11 @@ header nav ul li {
 
 header nav ul li ul {
     display: none;
-    background-color: #3C2370;
+    background-color: #1C2D76;
     border-radius: 50px;
     padding: 5px 5px;
     top: 100%;
-    margin-top: 5px;
+    margin-top: 3px;
 }
 
 header nav ul li:hover ul {
@@ -152,7 +152,7 @@ header nav ul li a {
     text-decoration: none;
     text-align: center;
     color: inherit;
-    background-color: #3C2370;
+    background-color: #1C2D76;
     border-radius: 50px;
     padding: 10px;
     white-space: nowrap;
@@ -160,9 +160,9 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
     transition: 0.2s ease-in-out;
-    color: #23173F;
+    color: #0D1745;
 }
 
 
@@ -426,15 +426,44 @@ section.rotina2 ul li{
     font-weight: bold;
 }
 
+/*-----5-tratamentoedoencas.html-----*/
+div.conteudo-azul ul{
+ font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 30px;
+    max-width: 50vw;
+}
+
+div.conteudo-azul ul li{
+ color: #6D80D4;
+    font-weight: bold;
+}
+
+div.conteudo-azul ul p{
+ font-family: "Baloo Bhai 2", sans-serif;
+    color: #D0D0D0;
+    font-size: 25px;
+    max-width: 50vw;
+ font-weight: normal;
+    
+}
+
+img.tratamentos{
+    width: 30%;
+}
+
+div.tratamentos{
+    margin: auto;
+}
+
 /* -----7-areadecontatoeajuda.html-----*/
 
 summary {
     font-family: "Baloo Bhai 2", sans-serif;
     color: #D0D0D0;
-    font-size: 25px;
+    font-size: 30px;
     margin: 10px;
     list-style: none;
-    width: 530px;
+    width: 30%;
     border-bottom: 4px solid #1C2D76;
     padding-bottom: 18px;
 }
@@ -443,45 +472,23 @@ section.faq {
     padding: 0 5vw;
 }
 
-#p1 {
-    margin-left: 25px;
-}
 
-#p2 {
-    margin-left: 73px;
-}
-
-#p3 {
-    margin-left: 167px;
-}
-
-#p4 {
-    margin-left: 79px;
-}
-
-#p5 {
-    margin-left: 109px;
-}
-
-#p6 {
-    margin-left: 84px;
-}
-
-/* Ver no atendimento dev web*/
+/* Ver no atendimento dev web alinhar setas*/
 
 
 p.expansao {
     font-family: "Baloo Bhai 2", sans-serif;
-    color: #7B7B7B;
-    font-size: 20px;
+    color: #aca7a7;
+    font-size: 25px;
     margin: 20px;
-    margin-left: 70px;
+    max-width: fit-content;
 }
 
 p.expansao a {
     font-family: "Baloo Bhai 2", sans-serif;
-    color: #1C2D76;
-    font-size: 20px;
+    color: #293f9f;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 /*-----8-sobrenos.html-----*/
