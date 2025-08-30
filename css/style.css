@@ -543,8 +543,554 @@ img.logo{
     border-radius: 100%;
 }
 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------CELULAR---------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 @media screen and (max-width: 900px) {
-    /*geral*/
+
+    /*----geral----*/
+
+
+p {
+    font-family: "Baloo Bhai 2", sans-serif;
+    color: #D0D0D0;
+    font-size: 20px;
+    max-width: 50vw;
+}
+
+p.introducao{
+    text-align: center;
+}
+
+h1.h1-azul {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-size: 55px;
+    margin: 20px auto;
+    color: #6D80D4;
+    background-color: #1C2D76;
+    border-radius: 100px;
+    max-width: fit-content;
+    text-align: center;
+}
+
+h1.h1-roxo {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-size: 55px;
+    margin: 30px auto;
+    color: #8663D2;
+    background-color: #3C2370;
+    border-radius: 100px;
+    max-width: fit-content;
+    text-align: center;
+}
+
+h2.h2-azul {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-size: 50px;
+    margin: 10px 0;
+    color: #6D80D4;
+}
+
+h2.h2-roxo {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-size: 50px;
+    margin: 10px 0;
+    color: #8663D2;
+}
+
+button a.fontes{
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-family: "Baloo Bhai 2", sans-serif;
+    color: #D0D0D0;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+button.roxo{
+    background-color: #3C2370;
+}
+
+button.azul{
+    background-color: #1C2D76;
+}
+
+
+div.centralizarBotoes{
+    justify-content: center;
+    display: flex;
+}
+
+a.fontes:hover{
+    transform: scale(1.1);
+    transition: .2s;
+    cursor: pointer;
+
+}
+
+/* -----footer----- */
+footer {
+    background-color: #23173F;
+    padding: 1vw;
+    margin: 5vw 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    /*Ver no atendimento dev web*/
+}
+
+
+.copyright {
+    font-size: 20px;
+    color: #56349F;
+}
+
+.esquerda-footer {
+    display: block;
+}
+
+footer nav a {
+    font-size: 1.5vw;
+    margin: 2px;
+    color: #56349F;
+}
+
+.hypnos {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: #56349F;
+}
+
+footer nav button a {
+    font-size: 2vw;
+}
+
+p.nomes {
+    font-size: 20px;
+}
+
+div.botoes-footer{
+    display: flex;
+}
+
+div.botoes-footer button{
+    font-size: 25px;
+    color: #56349F;
+}
+
+/*-----header-----*/
+header img.header{
+    width: 4vw;
+    margin-left: 25px;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0D1745;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+header nav ul li {
+    position: relative;
+    display: flex;
+    margin: 0 0.5vw 0 0.5vw;
+    font-family: "Baloo Bhai 2", sans-serif;
+    color: #D0D0D0;
+    font-size: 20px;
+}
+
+header nav ul li ul {
+    display: none;
+    background-color: #1C2D76;
+    border-radius: 50px;
+    padding: 5px 5px;
+    top: 100%;
+    margin-top: 3px;
+}
+
+header nav ul li:hover ul {
+    display: block;
+    position: absolute;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    text-align: center;
+    color: inherit;
+    background-color: #1C2D76;
+    border-radius: 50px;
+    padding: 10px;
+    white-space: nowrap;
+    min-width: 120px;
+}
+
+header nav ul li a:hover {
+    transform: scale(0.9);
+    transition: 0.2s ease-in-out;
+    color: #0D1745;
+}
+
+
+
+/* -----index.html----- */
+
+.parte-azul {
+    background-color: #1C2D76;
+    background: url(../imagens/enxoval.png) no-repeat, #1C2D76;
+    background-size: 100% auto, auto;
+    display: flex;
+    width: 90%;
+    margin: 30px auto;
+    border-radius: 30px;
+    padding: 40vw 0 10vw 5vw;
+    color: white;
+}
+
+.esquerda {
+    display: block;
+}
+
+
+
+.parte-azul h1 {
+    font-family: "Emilys Candy", serif;
+    font-weight: 400;
+    font-size: 140px;
+    color: #0D1745;
+}
+
+.parte-azul img {
+    width: 100%;
+    border-radius: 30px;
+    margin: -30px;
+}
+
+.parte-azul p {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #6D80D4;
+    position: absolute;
+    margin: -5vw 0 0 12vw
+}
+
+
+.parte-roxa {
+    background-color: #56349F;
+    width: 32%;
+    padding: 40px;
+    display: block;
+    border-radius: 30px;
+}
+
+.parte-roxa h2 {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #191919;
+    text-align: center;
+    margin: 0;
+}
+
+.parte-roxa p {
+    font-family: "Baloo Bhai 2", sans-serif;
+    color: #23173F;
+    font-size: 30px;
+    text-align: center;
+}
+
+.parte-roxa button {
+    background-color: #191919;
+    color: #56349F;
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-size: 30px;
+    border-radius: 100px;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    margin: auto;
+}
+
+.parte-roxa button a{
+    color: #56349F;
+    text-decoration: none;
+}
+
+.parte-roxa button:hover {
+    transform: scale(0.95);
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.botoes {
+    display: block;
+}
+
+button {
+    display: block;
+    margin: 1vw;
+    font-size: 30px;
+    font-family: "Baloo Bhai 2", sans-serif;
+    border-radius: 40px;
+    border: none;
+    padding: 0 12px 0 12px;
+    color: #191919;
+}
+
+button a{
+    text-decoration: none;
+    color: inherit;
+}
+
+button.insta {
+    background-color: #687DD8;
+}
+
+button.twt {
+    background-color: #8663D2;
+}
+
+button:hover {
+    transform: scale(0.95);
+    transition: transform 0.2s ease-in-out;
+
+}
+
+section.convite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -----2-oqueésono.html----- */
+
+p.introducao {
+    max-width: 70vw;
+    margin: auto;
+    color: #D0D0D0;
+}
+
+div.conteudo-azul {
+    margin: 2vw auto;
+    padding: 5vw 5vw;
+    max-width: 50vw;
+    background-color: #0D1745;
+}
+
+div.conteudo-roxo {
+    margin: 2vw auto;
+    padding: 5vw 5vw;
+    max-width: 50vw;
+    background-color: #23173F;
+}
+
+
+img.carrossel {
+    max-width: 20vw;
+    border-radius: 10px;
+    margin: auto;
+}
+
+/*-----4-bonsemaushabitos.html-----*/
+
+section.inicio-4 p {
+    text-align: center;
+}
+
+div.bonsEMausHabitos {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+}
+
+h2.h2-4 {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-size: 50px;
+    margin: 10px 0;
+    color: #D0D0D0;
+}
+
+section.bons {
+    text-align: center;
+    background-color: #54B268;
+    margin: 2vw;
+    padding: 2vw;
+    border-radius: 50px;
+}
+
+section.maus {
+    text-align: center;
+    background-color: #B25454;
+    margin: 2vw;
+    padding: 2vw;
+    border-radius: 50px;
+}
+
+section.bons p {
+    color: #165E26;
+}
+
+section.bons h2 {
+    color: #165E26;
+}
+
+section.maus p {
+    color: #5E1616;
+}
+
+section.maus h2 {
+    color: #5E1616;
+}
+
+section.bons img {
+    width: 15%;
+    display: block;
+    margin: auto;
+}
+
+section.maus img {
+    width: 15%;
+    display: block;
+    margin: auto;
+}
+
+img {
+    width: 50%;
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+}
+
+button.maus{
+    background-color: #5E1616;
+
+}
+
+button.bons{
+    background-color: #165E26;
+
+}
+
+/*-----4.1-rotinaidealdosono.html-----*/
+section.rotina ul {
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 30px;
+    max-width: 50vw;
+}
+
+section.rotina ul li{
+    color: #8663D2;
+    font-weight: bold;
+}
+
+section.rotina2 ol {
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 30px;
+    max-width: 50vw;
+}
+
+section.rotina2 ol li{
+    color: #D0D0D0;
+    font-weight: bold;
+}
+
+section.rotina2 ul li{
+    color: #8663D2;
+    font-weight: bold;
+}
+
+/*-----5-tratamentoedoencas.html-----*/
+div.conteudo-azul ul{
+ font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 30px;
+    max-width: 50vw;
+}
+
+div.conteudo-azul ul li{
+ color: #6D80D4;
+    font-weight: bold;
+}
+
+div.conteudo-azul ul p{
+ font-family: "Baloo Bhai 2", sans-serif;
+    color: #D0D0D0;
+    font-size: 25px;
+    max-width: 50vw;
+ font-weight: normal;
+    
+}
+
+img.tratamentos{
+    width: 30%;
+}
+
+div.tratamentos{
+    margin: auto;
+}
+
+/* -----7-areadecontatoeajuda.html-----*/
+
+summary {
+    font-family: "Baloo Bhai 2", sans-serif;
+    color: #D0D0D0;
+    font-size: 30px;
+    margin: 10px;
+    list-style: none;
+    width: 30%;
+    border-bottom: 4px solid #1C2D76;
+    padding-bottom: 18px;
+}
+
+section.faq {
+    padding: 0 5vw;
+}
+
+
+/* Ver no atendimento dev web alinhar setas*/
+
+
+p.expansao {
+    font-family: "Baloo Bhai 2", sans-serif;
+    color: #aca7a7;
+    font-size: 25px;
+    margin: 20px;
+    max-width: fit-content;
+}
+
+p.expansao a {
+    font-family: "Baloo Bhai 2", sans-serif;
+    color: #293f9f;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/*-----8-sobrenos.html-----*/
+ul li {
+    color: #3C2370;
+}
+
+img.logo{
+    width: 15vw;
+    border-radius: 100%;
+}
+
 
     /*obs dica da hali: repetir o menu no html e dps botar 
     <button onclick="menuShow()"> </button> ><img class="icon" src="../imagens/menu.png"></button>
