@@ -55,6 +55,38 @@ h2.h2-roxo {
     color: #8663D2;
 }
 
+button a.fontes{
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-family: "Baloo Bhai 2", sans-serif;
+    color: #D0D0D0;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+button.roxo{
+    background-color: #3C2370;
+}
+
+button.azul{
+    background-color: #1C2D76;
+}
+
+
+div.centralizarBotoes{
+    justify-content: center;
+    display: flex;
+}
+
+a.fontes:hover{
+    transform: scale(1.1);
+    transition: .2s;
+    cursor: pointer;
+
+}
+
 /* -----footer----- */
 footer {
     background-color: #23173F;
@@ -398,6 +430,16 @@ img {
     border-radius: 50px;
 }
 
+button.maus{
+    background-color: #5E1616;
+
+}
+
+button.bons{
+    background-color: #165E26;
+
+}
+
 /*-----4.1-rotinaidealdosono.html-----*/
 section.rotina ul {
     font-family: "Baloo Bhai 2", sans-serif;
@@ -508,3 +550,8 @@ img.logo{
     <button onclick="menuShow()"> </button> ><img class="icon" src="../imagens/menu.png"></button>
     e fazer javascript pra mostrar*/
 }
+/* atendimento dev web: 
+pagina bons e maus habitos: pontinhos da ul nao somem, um botao só n fica no centro
+pagina faq: como deixar setas todas no mesmo lugar
+footer: botao de topo nao fica embaixo
+*/
