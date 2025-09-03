@@ -577,11 +577,13 @@ p.introducao{
 }
 
 h1.h1-azul {
-    font-size: 40px;
+    font-size: 30px;
+    max-width: 90%;
 }
 
 h1.h1-roxo {
-    font-size: 40px;
+    font-size: 30px;
+    max-width: 90%;
 }
 
 h2.h2-azul {
@@ -877,7 +879,7 @@ section.rotina2 ul li{
 /*-----5-tratamentoedoencas.html-----*/
 div.conteudo-azul ul{
  font-family: "Baloo Bhai 2", sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     max-width: 80vw;
 }
 
@@ -886,17 +888,13 @@ list-style: circle;
 }
 
 div.conteudo-azul ul p{
- font-family: "Baloo Bhai 2", sans-serif;
-    color: #D0D0D0;
-    font-size: 25px;
+    font-size: 20px;
     max-width: 80vw;
- font-weight: normal;
     
 }
 
 img.tratamentos{
-    width: 70%;
-    font-size: 20px;
+    width: 80%;
 }
 
 div.tratamentos{
@@ -908,7 +906,7 @@ div.tratamentos{
 summary {
     font-family: "Baloo Bhai 2", sans-serif;
     color: #D0D0D0;
-    font-size: 30px;
+    font-size: 20px;
     margin: 10px;
     list-style: none;
     width: 30%;
@@ -920,14 +918,10 @@ section.faq {
     padding: 0 5vw;
 }
 
-
-/* Ver no atendimento dev web alinhar setas*/
-
-
 p.expansao {
     font-family: "Baloo Bhai 2", sans-serif;
     color: #aca7a7;
-    font-size: 25px;
+    font-size: 20px;
     margin: 20px;
     max-width: fit-content;
 }
@@ -936,7 +930,7 @@ p.expansao a {
     font-family: "Baloo Bhai 2", sans-serif;
     color: #293f9f;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /*-----8-sobrenos.html-----*/
@@ -945,8 +939,7 @@ ul li {
 }
 
 img.logo{
-    width: 15vw;
-    border-radius: 100%;
+    width: 45vw;
 }
 
 
@@ -958,8 +951,9 @@ img.logo{
 footer: botao de topo nao fica embaixo
 */
 
-/*mudar os icones do font awesome
-mandar email pro professor depois*/
+/*mandar email pro professor depois*/
+/*em algumas telas o hypnos ta bugando*/
+/*o botao de fontes dos bons e maus habitos apenas um não fica no centrop*/
 
 
 
