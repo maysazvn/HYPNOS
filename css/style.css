@@ -3,6 +3,7 @@ body {
     padding: 0;
     background-color: #191919;
 }
+
 ul li{
     list-style: none;
 }
@@ -98,6 +99,14 @@ a.fontes:hover{
 
 }
 
+button{
+    border-radius: 50px;
+    font-family: "Baloo Bhai 2", sans-serif;
+    color: #D0D0D0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
 /* -----footer----- */
 footer {
     background-color: #23173F;
@@ -120,9 +129,23 @@ footer {
 }
 
 footer nav a {
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     margin: 2px;
     color: #56349F;
+}
+
+footer nav a.botao-topo{
+    font-size: 2vw;
+    color: #3C2370;
+    border-radius: 50px;
+    background: white;
+    padding: 10px; 
+    border-radius: 50%;
+}
+
+footer nav a.botao-topo:hover{
+    transform: scale(0.9);
+    transition: 0.2s ease-in-out;
 }
 
 .hypnos {
@@ -145,9 +168,16 @@ div.botoes-footer{
     display: flex;
 }
 
+div.botoes-footer a:hover {
+  color: white;
+}
+
 div.botoes-footer button{
     font-size: 25px;
     color: #56349F;
+    margin: 5px;
+    border-radius: 25px;
+    font-family: "Baloo Bhai 2", sans-serif;
 }
 
 /*-----header-----*/
@@ -278,7 +308,7 @@ header nav ul li a:hover {
     text-align: center;
 }
 
-.parte-roxa button {
+section.convite div.parte-roxa a {
     background-color: #191919;
     color: #56349F;
     font-family: "Abhaya Libre", serif;
@@ -288,14 +318,11 @@ header nav ul li a:hover {
     border: none;
     padding: 10px 15px 10px 15px;
     margin: auto;
-}
-
-.parte-roxa button a{
     color: #56349F;
     text-decoration: none;
 }
 
-.parte-roxa button:hover {
+section.convite div.parte-roxa a.botao-roxo:hover {
     transform: scale(0.95);
     transition: transform 0.2s ease-in-out;
 
@@ -305,8 +332,12 @@ header nav ul li a:hover {
     display: block;
 }
 
-button {
-    display: block;
+button.twt {
+    background-color: #8663D2;
+}
+
+section.convite a.insta{
+display: block;
     margin: 1vw;
     font-size: 30px;
     font-family: "Baloo Bhai 2", sans-serif;
@@ -314,22 +345,26 @@ button {
     border: none;
     padding: 0 12px 0 12px;
     color: #191919;
-}
-
-button a{
+    background-color: #687DD8;
     text-decoration: none;
     color: inherit;
 }
 
-button.insta {
-    background-color: #687DD8;
-}
-
-button.twt {
+section.convite a.twt{
+display: block;
+    margin: 1vw;
+    font-size: 30px;
+    font-family: "Baloo Bhai 2", sans-serif;
+    border-radius: 40px;
+    border: none;
+    padding: 0 12px 0 12px;
+    color: #191919;
     background-color: #8663D2;
+    text-decoration: none;
+    color: inherit;
 }
 
-button:hover {
+section.convite a:hover {
     transform: scale(0.95);
     transition: transform 0.2s ease-in-out;
 
@@ -508,6 +543,10 @@ img.tratamentos{
 
 div.tratamentos{
     margin: auto;
+}
+
+p.paragrafo{
+    font-weight: normal;
 }
 
 /* -----7-areadecontatoeajuda.html-----*/
