@@ -1,14 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Benefícios e Malefícios</title>
 
     <link rel="stylesheet" href="../css/style.css">
 
+    <script src="https://kit.fontawesome.com/503e616a76.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Baloo+Bhai+2:wght@400..800&family=Emilys+Candy&display=swap"
+        rel="stylesheet">
 </head>
 <body>
+
+    <header>
+    <nav>
+      <img src="../imagens/logo.png" alt="Logo" class="header">
+      <ul>
+        <li>
+          <a href="index.html">Início</a>
+        </li>
+        <li>
+          <a href="2-oqueésono.html">O que é sono?</a>
+        </li>
+        <li>
+          <a href="3-sonoesaudemental.html">Saúde mental <span class="fa-solid fa-chevron-down"></span></a>
+
+          <ul>
+            <li class="sub">
+              <a href="3.1-beneficiosemaleficios.html">Benefícios e malefícios</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="4-bonsemaushabitos.html">Hábitos <span class="fa-solid fa-chevron-down"></span></a>
+
+          <ul>
+            <li class="sub">
+              <a href="4.1-rotinaidealdosono.html">Rotina ideal</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="5-tratamentoedoencas.html">Tratamentos</a>
+        </li>
+        <li>
+          <a href="6-pesquisa.html">Pesquisa</a>
+        </li>
+        <li>
+          <a href="7-FAQ.html">FAQ</a>
+        </li>
+        <li>
+          <a href="8-sobrenos.html">Sobre nós</a>
+        </li>
+
+      </ul>
+    </nav>
+  </header>
 
     <main>
 
@@ -40,6 +92,57 @@
         </button>
 
     </main>
+
+    <footer>
+        <div>
+            <nav class="botoes-redes">
+                <a href=""><span class="fa-brands fa-square-facebook"></span></a>
+                <a href=""><span class="fa-brands fa-instagram"></span></a>
+                <a href=""><span class="fa-brands fa-twitter"></span></a>
+            </nav>
+
+            <p class="hypnos">Hypnos</p>
+            <p class="nomes">Maysa Bagnhuk Machado, Samuel Fortunato Gadotti, <br>
+                Clara Kellermann dos Santos, Pietro Reichow Fonseca, <br>
+                André Kosmala</p>
+            <p class="copyright">Copyright ©2025 All rights reserved</p>
+        </div>
+
+        <div>
+            <form action="#">
+                <h2 class="hypnos">Quer entrar em contato?</h2>
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome">
+                </p>
+
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                </p>
+
+                <p>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" placeholder="Escreva sua mensagem"></textarea>
+                </p>
+
+                <div class="botoes-footer">
+                    <button type="reset">
+                        Apagar
+                    </button>
+                    <button type="submit">
+                        Enviar
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <nav>
+                <a href="#topo" class="botao-topo"><span class="fa-solid fa-chevron-up"></span></a>
+
+        </nav>
+    </footer>
     
 </body>
 </html>
