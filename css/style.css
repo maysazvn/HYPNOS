@@ -405,6 +405,94 @@ img.carrossel {
     margin: auto;
 }
 
+/* -----3-sonoesaudemental----- */
+
+section p.separar{
+    margin: 55px 0;
+}
+
+/* -----3.1-beneficiosemaleficios----- */
+
+section.tudo{
+    display: flex;
+  justify-content: space-between;
+    margin: auto;
+    width: 90%;
+}
+
+.beneficios, .porquebeneficios, .maleficios, .porquemaleficios {
+ text-align: center;
+    margin: 2vw;
+    padding: 2vw;
+    border-radius: 50px;
+}
+
+h2.h2-branco {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-size: 50px;
+    margin: 10px 0;
+    color: #D0D0D0;
+    text-align: center;
+}
+
+h2.h2-preto {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-size: 50px;
+    margin: 10px 0;
+    color: #191919;
+    text-align: center;
+}
+
+section.beneficios{
+    background: #6D80D4;
+    border-radius: 50px;
+    width: 70%;
+    margin: 2vw 0;
+}
+
+section.beneficios ul li p{
+    color: #1C2D76;
+    padding: 1vw 3vw;
+}
+
+section.maleficios{
+    background: #6D80D4;
+    border-radius: 50px;
+    width: 70%;
+    margin: 2vw 0;
+}
+
+section.maleficios ul li p{
+    color: #1C2D76;
+    padding: 1vw 3vw;
+}
+
+section.porquebeneficios{
+    background: #1C2D76;
+    border-radius: 50px;
+    width: 70%;
+    margin: 2vw 0;
+}
+
+section.porquebeneficios ul li p{
+    color: #8697e4;
+    padding: 1vw 3vw;
+}
+
+section.porquemaleficios{
+    background: #1C2D76;
+    border-radius: 50px;
+    width: 70%;
+    margin: 2vw 0;
+}
+
+section.porquemaleficios ul li p{
+    color: #8697e4;
+    padding: 1vw 3vw;
+}
+
 /*-----4-bonsemaushabitos.html-----*/
 
 section.inicio-4 p {
@@ -561,6 +649,13 @@ summary {
     border-bottom: 4px solid #1C2D76;
     padding-bottom: 18px;
 }
+
+summary{
+    width: 50%!important;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 section.faq {
     padding: 0 5vw;
@@ -992,17 +1087,12 @@ img.logo{
 footer: botao de topo nao fica embaixo
 */
 
-/*mandar email pro professor depois*/
-/*em algumas telas o hypnos ta bugando*/
-
-
-
-summary{
-    width: 50%!important;
-    display: flex;
-    justify-content: space-between;
-}
-
+/*ARRUMAR:
+tela inicial hypnos não concluída
+nomes das paginas
+fontes
+3 e 3.1 pra celular
+*/
 @media screen and (min-width: 900px) {
 
     iframe{
