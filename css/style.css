@@ -294,7 +294,7 @@ header nav ul li a:hover {
     font-size: 40px;
     color: #6D80D4;
     position: absolute;
-    margin: -5vw 0 0 12vw
+    margin: -2vw 0 0 12vw
 }
 
 
@@ -331,7 +331,7 @@ section.convite div.parte-roxa a {
     border-radius: 100px;
     border: none;
     padding: 10px 15px 10px 15px;
-    margin: auto;
+    margin: 0 auto;
     color: #56349F;
     text-decoration: none;
 }
@@ -406,10 +406,6 @@ img.carrossel {
 }
 
 /* -----3-sonoesaudemental----- */
-
-section p.separar{
-    margin: 55px 0;
-}
 
 /* -----3.1-beneficiosemaleficios----- */
 
@@ -667,7 +663,7 @@ p.expansao {
     color: #aca7a7;
     font-size: 25px;
     margin: 20px;
-    max-width: fit-content;
+    max-width: 40vw;
 }
 
 p.expansao a {
@@ -709,7 +705,7 @@ p.introducao{
 
 h1.h1-azul {
     font-size: 30px;
-    max-width: 90%;
+    max-width: 90%;    padding: 10px 15px 10px 15px;
 }
 
 h1.h1-roxo {
@@ -811,7 +807,7 @@ div.botoes-footer button{
     background-color: #1C2D76;
     background: url(../imagens/enxoval.png) no-repeat, #1C2D76;
     background-size: 100% auto, auto;
-    display: flex;
+    display: block;
     width: 90%;
     margin: 30px auto;
     border-radius: 30px;
@@ -826,40 +822,28 @@ div.botoes-footer button{
 
 
 .parte-azul h1 {
-    font-family: "Emilys Candy", serif;
-    font-weight: 400;
-    font-size: 140px;
-    color: #0D1745;
-}
-
-.parte-azul img {
-    width: 100%;
-    border-radius: 30px;
-    margin: -30px;
+    font-size: 60px;
 }
 
 .parte-azul p {
-    font-family: "Abhaya Libre", serif;
-    font-weight: 500;
-    font-size: 40px;
-    color: #6D80D4;
-    position: absolute;
-    margin: -5vw 0 0 12vw
+    font-size: 15px;
+    margin: 0 0 0 12vw
 }
 
 
 .parte-roxa {
     background-color: #56349F;
-    width: 32%;
+    width: 70%;
     padding: 40px;
     display: block;
     border-radius: 30px;
+    margin: auto;
 }
 
 .parte-roxa h2 {
     font-family: "Abhaya Libre", serif;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 25px;
     color: #191919;
     text-align: center;
     margin: 0;
@@ -868,7 +852,7 @@ div.botoes-footer button{
 .parte-roxa p {
     font-family: "Baloo Bhai 2", sans-serif;
     color: #23173F;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -877,10 +861,9 @@ div.botoes-footer button{
     color: #56349F;
     font-family: "Abhaya Libre", serif;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 1px;
     border-radius: 100px;
     border: none;
-    padding: 10px 15px 10px 15px;
     margin: auto;
 }
 
@@ -902,7 +885,7 @@ div.botoes-footer button{
 button {
     display: block;
     margin: 1vw;
-    font-size: 30px;
+    font-size: 10px;
     font-family: "Baloo Bhai 2", sans-serif;
     border-radius: 40px;
     border: none;
@@ -930,7 +913,7 @@ button:hover {
 }
 
 section.convite {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
 }
@@ -956,6 +939,40 @@ img.carrossel {
     max-width: 80%;
 }
 
+/* -----3-sonoesaudemental----- */
+
+/* -----3.1-beneficiosemaleficios----- */
+
+section.tudo{
+    display: block;
+  justify-content: space-between;
+    margin: auto;
+    width: 90%;
+}
+
+h2.h2-branco {
+    font-size: 30px;
+}
+
+h2.h2-preto {
+    font-size: 30px;
+}
+
+section.beneficios{
+    width: 90%;
+}
+
+section.maleficios{
+    width: 90%;
+}
+
+section.porquebeneficios{
+    width: 90%;
+}
+
+section.porquemaleficios{
+    width: 90%;
+}
 /*-----4-bonsemaushabitos.html-----*/
 
 section.inicio-4 p {
@@ -1040,7 +1057,7 @@ summary {
     font-size: 20px;
     margin: 10px;
     list-style: none;
-    width: 30%;
+    width: 70%;
     border-bottom: 4px solid #1C2D76;
     padding-bottom: 18px;
 }
@@ -1084,14 +1101,12 @@ img.logo{
 
 
 /* atendimento dev web: 
-footer: botao de topo nao fica embaixo
+footer: botao de topo nao fica embaixo (mandei email para professor)
 */
 
 /*ARRUMAR:
-tela inicial hypnos não concluída
-nomes das paginas
-fontes
-3 e 3.1 pra celular
+tela inicial hypnos no celular e centralizar botão
+botões no celular
 */
 @media screen and (min-width: 900px) {
 
