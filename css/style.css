@@ -4,9 +4,10 @@ body {
     background-color: #191919;
 }
 
-ul li{
+ul li {
     list-style: none;
 }
+
 * {
     padding: 0;
     margin: 0;
@@ -23,7 +24,7 @@ p {
     max-width: 50vw;
 }
 
-p.introducao{
+p.introducao {
     text-align: center;
 }
 
@@ -81,7 +82,7 @@ div.conteudo-roxo {
     background-color: #23173F;
 }
 
-button a.fontes{
+button a.fontes {
     border-radius: 50px;
     padding: 5px 10px;
     font-family: "Baloo Bhai 2", sans-serif;
@@ -92,28 +93,28 @@ button a.fontes{
 
 }
 
-button.roxo{
+button.roxo {
     background-color: #3C2370;
 }
 
-button.azul{
+button.azul {
     background-color: #1C2D76;
 }
 
 
-div.centralizarBotoes{
+div.centralizarBotoes {
     justify-content: center;
     display: flex;
 }
 
-a.fontes:hover{
+a.fontes:hover {
     transform: scale(1.1);
     transition: .2s;
     cursor: pointer;
 
 }
 
-button{
+button {
     border-radius: 50px;
     font-family: "Baloo Bhai 2", sans-serif;
     color: #D0D0D0;
@@ -148,16 +149,16 @@ footer nav a {
     color: #56349F;
 }
 
-footer nav a.botao-topo{
+footer nav a.botao-topo {
     font-size: 2vw;
     color: #3C2370;
     border-radius: 50px;
     background: white;
-    padding: 10px; 
+    padding: 10px;
     border-radius: 50%;
 }
 
-footer nav a.botao-topo:hover{
+footer nav a.botao-topo:hover {
     transform: scale(0.9);
     transition: 0.2s ease-in-out;
 }
@@ -169,7 +170,7 @@ footer nav a.botao-topo:hover{
     color: #56349F;
 }
 
-footer nav button{
+footer nav button {
     font-size: 2vw;
     color: #3C2370;
 }
@@ -178,15 +179,15 @@ p.nomes {
     font-size: 20px;
 }
 
-div.botoes-footer{
+div.botoes-footer {
     display: flex;
 }
 
 div.botoes-footer a:hover {
-  color: white;
+    color: white;
 }
 
-div.botoes-footer button{
+div.botoes-footer button {
     font-size: 25px;
     color: #56349F;
     margin: 5px;
@@ -195,10 +196,11 @@ div.botoes-footer button{
 }
 
 /*-----header-----*/
-header img.header{
+header img.header {
     width: 4vw;
     margin-left: 25px;
 }
+
 header nav {
     display: flex;
     justify-content: space-between;
@@ -257,6 +259,12 @@ header nav ul li a:hover {
 
 /* -----index.html----- */
 
+section.convite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .parte-azul {
     background-color: #1C2D76;
     background: url(../imagens/enxoval.png) no-repeat, #1C2D76;
@@ -294,7 +302,7 @@ header nav ul li a:hover {
     font-size: 40px;
     color: #6D80D4;
     position: absolute;
-    margin: -2vw 0 0 12vw
+    margin: 6vw 0 0 12vw
 }
 
 
@@ -322,7 +330,10 @@ header nav ul li a:hover {
     text-align: center;
 }
 
-section.convite div.parte-roxa a {
+
+section.convite div.parte-roxa a.botao-roxo {
+    display: block;
+    text-align: center;
     background-color: #191919;
     color: #56349F;
     font-family: "Abhaya Libre", serif;
@@ -330,28 +341,24 @@ section.convite div.parte-roxa a {
     font-size: 30px;
     border-radius: 100px;
     border: none;
-    padding: 10px 15px 10px 15px;
-    margin: 0 auto;
-    color: #56349F;
+    padding: 10px 15px;
+    margin: 20px auto;
     text-decoration: none;
+    max-width: 20vw;
 }
 
 section.convite div.parte-roxa a.botao-roxo:hover {
     transform: scale(0.95);
-    transition: transform 0.2s ease-in-out;
-
+    transition: 0.2s ease-in-out;
 }
 
 .botoes {
     display: block;
 }
 
-button.twt {
-    background-color: #8663D2;
-}
 
-section.convite a.insta{
-display: block;
+section.convite a.insta {
+    display: block;
     margin: 1vw;
     font-size: 30px;
     font-family: "Baloo Bhai 2", sans-serif;
@@ -364,8 +371,8 @@ display: block;
     color: inherit;
 }
 
-section.convite a.twt{
-display: block;
+section.convite a.twt {
+    display: block;
     margin: 1vw;
     font-size: 30px;
     font-family: "Baloo Bhai 2", sans-serif;
@@ -382,12 +389,6 @@ section.convite a:hover {
     transform: scale(0.95);
     transition: transform 0.2s ease-in-out;
 
-}
-
-section.convite {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 /* -----2-oqueésono.html----- */
@@ -409,20 +410,6 @@ img.carrossel {
 
 /* -----3.1-beneficiosemaleficios----- */
 
-section.tudo{
-    display: flex;
-  justify-content: space-between;
-    margin: auto;
-    width: 90%;
-}
-
-.beneficios, .porquebeneficios, .maleficios, .porquemaleficios {
- text-align: center;
-    margin: 2vw;
-    padding: 2vw;
-    border-radius: 50px;
-}
-
 h2.h2-branco {
     font-family: "Abhaya Libre", serif;
     font-weight: 800;
@@ -441,50 +428,50 @@ h2.h2-preto {
     text-align: center;
 }
 
-section.beneficios{
+section.beneficios {
     background: #6D80D4;
     border-radius: 50px;
     width: 70%;
     margin: 2vw 0;
 }
 
-section.beneficios ul li p{
+section.beneficios ul li p {
     color: #1C2D76;
     padding: 1vw 3vw;
 }
 
-section.maleficios{
+section.maleficios {
     background: #6D80D4;
     border-radius: 50px;
     width: 70%;
     margin: 2vw 0;
 }
 
-section.maleficios ul li p{
+section.maleficios ul li p {
     color: #1C2D76;
     padding: 1vw 3vw;
 }
 
-section.porquebeneficios{
+section.porquebeneficios {
     background: #1C2D76;
     border-radius: 50px;
     width: 70%;
     margin: 2vw 0;
 }
 
-section.porquebeneficios ul li p{
+section.porquebeneficios ul li p {
     color: #8697e4;
     padding: 1vw 3vw;
 }
 
-section.porquemaleficios{
+section.porquemaleficios {
     background: #1C2D76;
     border-radius: 50px;
     width: 70%;
     margin: 2vw 0;
 }
 
-section.porquemaleficios ul li p{
+section.porquemaleficios ul li p {
     color: #8697e4;
     padding: 1vw 3vw;
 }
@@ -561,12 +548,12 @@ img {
     border-radius: 50px;
 }
 
-button.maus{
+button.maus {
     background-color: #5E1616;
 
 }
 
-button.bons{
+button.bons {
     background-color: #165E26;
 
 }
@@ -578,7 +565,7 @@ section.rotina ul {
     max-width: 50vw;
 }
 
-section.rotina ul li{
+section.rotina ul li {
     color: #8663D2;
     font-weight: bold;
 }
@@ -589,47 +576,47 @@ section.rotina2 ol {
     max-width: 50vw;
 }
 
-section.rotina2 ol li{
+section.rotina2 ol li {
     color: #D0D0D0;
     font-weight: bold;
 }
 
-section.rotina2 ul li{
+section.rotina2 ul li {
     color: #8663D2;
     font-weight: bold;
 }
 
 /*-----5-tratamentoedoencas.html-----*/
-div.conteudo-azul ul{
- font-family: "Baloo Bhai 2", sans-serif;
+div.conteudo-azul ul {
+    font-family: "Baloo Bhai 2", sans-serif;
     font-size: 30px;
     max-width: 50vw;
 }
 
-div.conteudo-azul ul li{
- color: #6D80D4;
+div.conteudo-azul ul li {
+    color: #6D80D4;
     font-weight: bold;
     list-style: circle;
 }
 
-div.conteudo-azul ul p{
- font-family: "Baloo Bhai 2", sans-serif;
+div.conteudo-azul ul p {
+    font-family: "Baloo Bhai 2", sans-serif;
     color: #D0D0D0;
     font-size: 25px;
     max-width: 50vw;
- font-weight: normal;
-    
+    font-weight: normal;
+
 }
 
-img.tratamentos{
+img.tratamentos {
     width: 30%;
 }
 
-div.tratamentos{
+div.tratamentos {
     margin: auto;
 }
 
-p.paragrafo{
+p.paragrafo {
     font-weight: normal;
 }
 
@@ -646,8 +633,8 @@ summary {
     padding-bottom: 18px;
 }
 
-summary{
-    width: 50%!important;
+summary {
+    width: 50% !important;
     display: flex;
     justify-content: space-between;
 }
@@ -678,9 +665,16 @@ ul li {
     color: #3C2370;
 }
 
-img.logo{
+img.logo {
     width: 15vw;
     border-radius: 100%;
+}
+
+img.sobreNos {
+    width: 14vw;
+    height: 12vw;
+    margin: 0;
+
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -692,426 +686,476 @@ img.logo{
     /*----geral----*/
 
 
-p {
-    font-family: "Baloo Bhai 2", sans-serif;
-    color: #D0D0D0;
-    font-size: 20px;
-    max-width: 80vw;
-}
-
-p.introducao{
-    text-align: center;
-}
-
-h1.h1-azul {
-    font-size: 30px;
-    max-width: 90%;    padding: 10px 15px 10px 15px;
-}
-
-h1.h1-roxo {
-    font-size: 30px;
-    max-width: 90%;
-}
-
-h2.h2-azul {
-    font-size: 35px;
-}
-
-h2.h2-roxo {
-    font-size: 35px;
-}
-
-button a.fontes{
-    border-radius: 50px;
-    padding: 5px 10px;
-    font-family: "Baloo Bhai 2", sans-serif;
-    color: #D0D0D0;
-    font-size: 30px;
-    text-decoration: none;
-    font-weight: bold;
-
-}
-
-button.roxo{
-    background-color: #3C2370;
-}
-
-button.azul{
-    background-color: #1C2D76;
-}
-
-
-div.centralizarBotoes{
-    justify-content: center;
-    display: flex;
-}
-
-a.fontes:hover{
-    transform: scale(1.1);
-    transition: .2s;
-    cursor: pointer;
-
-}
-
-/* -----footer----- */
-footer {
-    background-color: #23173F;
-    padding: 1vw;
-    margin: 5vw 0 0 0;
-    display: block;
-}
-
-
-.copyright {
-    font-size: 18px;
-}
-
-footer nav a {
-    font-size: 5vw;
-    margin: 2px;
-    color: #56349F;
-}
-
-footer nav a {
-    font-size: 5vw;
-}
-
-footer nav button{
-    font-size: 5vw;
-}
-
-p.nomes {
-    font-size: 20px;
-}
-
-div.botoes-footer{
-    display: flex;
-}
-
-div.botoes-footer button{
-    font-size: 25px;
-    color: #56349F;
-}
-
-/*-----header-----*/
-
-
-
-/*vai usar javascript*/
-
-
-
-/* -----index.html----- */
-
-.parte-azul {
-    background-color: #1C2D76;
-    background: url(../imagens/enxoval.png) no-repeat, #1C2D76;
-    background-size: 100% auto, auto;
-    display: block;
-    width: 90%;
-    margin: 30px auto;
-    border-radius: 30px;
-    padding: 40vw 0 10vw 5vw;
-    color: white;
-}
-
-.esquerda {
-    display: block;
-}
-
-
-
-.parte-azul h1 {
-    font-size: 60px;
-}
-
-.parte-azul p {
-    font-size: 15px;
-    margin: 0 0 0 12vw
-}
-
-
-.parte-roxa {
-    background-color: #56349F;
-    width: 70%;
-    padding: 40px;
-    display: block;
-    border-radius: 30px;
-    margin: auto;
-}
-
-.parte-roxa h2 {
-    font-family: "Abhaya Libre", serif;
-    font-weight: 800;
-    font-size: 25px;
-    color: #191919;
-    text-align: center;
-    margin: 0;
-}
-
-.parte-roxa p {
-    font-family: "Baloo Bhai 2", sans-serif;
-    color: #23173F;
-    font-size: 20px;
-    text-align: center;
-}
-
-.parte-roxa button {
-    background-color: #191919;
-    color: #56349F;
-    font-family: "Abhaya Libre", serif;
-    font-weight: 800;
-    font-size: 1px;
-    border-radius: 100px;
-    border: none;
-    margin: auto;
-}
-
-.parte-roxa button a{
-    color: #56349F;
-    text-decoration: none;
-}
-
-.parte-roxa button:hover {
-    transform: scale(0.95);
-    transition: transform 0.2s ease-in-out;
-
-}
-
-.botoes {
-    display: block;
-}
-
-button {
-    display: block;
-    margin: 1vw;
-    font-size: 10px;
-    font-family: "Baloo Bhai 2", sans-serif;
-    border-radius: 40px;
-    border: none;
-    padding: 0 12px 0 12px;
-    color: #191919;
-}
+    p {
+        font-family: "Baloo Bhai 2", sans-serif;
+        color: #D0D0D0;
+        font-size: 20px;
+        max-width: 80vw;
+    }
+
+    p.introducao {
+        text-align: center;
+    }
+
+    h1.h1-azul {
+        font-size: 30px;
+        max-width: 90%;
+        padding: 10px 15px 10px 15px;
+    }
 
-button a{
-    text-decoration: none;
-    color: inherit;
-}
-
-button.insta {
-    background-color: #687DD8;
-}
-
-button.twt {
-    background-color: #8663D2;
-}
-
-button:hover {
-    transform: scale(0.95);
-    transition: transform 0.2s ease-in-out;
-
-}
-
-section.convite {
-    display: block;
-    justify-content: center;
-    align-items: center;
-}
-
-/* -----2-oqueésono.html----- */
-
-p.introducao {
-    max-width: 90vw;
-    margin: auto;
-    color: #D0D0D0;
-}
-
-div.conteudo-azul {
-    max-width: 100%;
-}
-
-div.conteudo-roxo {
-    max-width: 100%;
-}
-
-
-img.carrossel {
-    max-width: 80%;
-}
-
-/* -----3-sonoesaudemental----- */
-
-/* -----3.1-beneficiosemaleficios----- */
-
-section.tudo{
-    display: block;
-  justify-content: space-between;
-    margin: auto;
-    width: 90%;
-}
-
-h2.h2-branco {
-    font-size: 30px;
-}
-
-h2.h2-preto {
-    font-size: 30px;
-}
-
-section.beneficios{
-    width: 90%;
-}
-
-section.maleficios{
-    width: 90%;
-}
-
-section.porquebeneficios{
-    width: 90%;
-}
-
-section.porquemaleficios{
-    width: 90%;
-}
-/*-----4-bonsemaushabitos.html-----*/
-
-section.inicio-4 p {
-    text-align: center;
-}
+    h1.h1-roxo {
+        font-size: 30px;
+        max-width: 90%;
+    }
+
+    h2.h2-azul {
+        font-size: 35px;
+    }
+
+    h2.h2-roxo {
+        font-size: 35px;
+    }
+
+    button a.fontes {
+        border-radius: 50px;
+        padding: 5px 10px;
+        font-family: "Baloo Bhai 2", sans-serif;
+        color: #D0D0D0;
+        font-size: 30px;
+        text-decoration: none;
+        font-weight: bold;
 
-div.bonsEMausHabitos {
-    display: block;
-    width: 100%;
-}
-
-section.bons img {
-    width: 25%;
-}
-
-section.maus img {
-    width: 25%;
-}
-
-section.bons{
-    padding: 5vw;
-}
-
-section.maus{
-    padding: 5vw;
-}
-
-img {
-    width: 80%;
-    display: block;
-    margin: auto;
-    border-radius: 30px;
-}
-
-/*-----4.1-rotinaidealdosono.html-----*/
-section.rotina ul {
-    font-size: 23px;
-    max-width: 80vw;
-}
-
-section.rotina2 ol {
-    font-size: 23px;
-    max-width: 80vw;
-}
-
-
-section.rotina2 ul li{
-    color: #8663D2;
-    font-weight: bold;
-}
-
-/*-----5-tratamentoedoencas.html-----*/
-div.conteudo-azul ul{
- font-family: "Baloo Bhai 2", sans-serif;
-    font-size: 20px;
-    max-width: 80vw;
-}
-
-div.conteudo-azul ul li{
-list-style: circle;
-}
-
-div.conteudo-azul ul p{
-    font-size: 20px;
-    max-width: 80vw;
-    
-}
-
-img.tratamentos{
-    width: 80%;
-}
-
-div.tratamentos{
-    margin: auto;
-}
-
-/* -----7-areadecontatoeajuda.html-----*/
-
-summary {
-    font-family: "Baloo Bhai 2", sans-serif;
-    color: #D0D0D0;
-    font-size: 20px;
-    margin: 10px;
-    list-style: none;
-    width: 70%;
-    border-bottom: 4px solid #1C2D76;
-    padding-bottom: 18px;
-}
-
-section.faq {
-    padding: 0 5vw;
-}
-
-p.expansao {
-    font-family: "Baloo Bhai 2", sans-serif;
-    color: #aca7a7;
-    font-size: 20px;
-    margin: 20px;
-    max-width: fit-content;
-}
+    }
 
-p.expansao a {
-    font-family: "Baloo Bhai 2", sans-serif;
-    color: #293f9f;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-/*-----8-sobrenos.html-----*/
-ul li {
-    color: #3C2370;
-}
-
-img.logo{
-    width: 45vw;
-}
+    button.roxo {
+        background-color: #3C2370;
+        font-size: 30px;
+        color: #D0D0D0;
+    }
 
+    button.azul {
+        background-color: #1C2D76;
+        font-size: 30px;
+        color: #D0D0D0;
+    }
+
+
+    div.centralizarBotoes {
+        justify-content: center;
+        display: flex;
+    }
+
+    a.fontes:hover {
+        transform: scale(1.1);
+        transition: .2s;
+        cursor: pointer;
+
+    }
+
+    /* -----footer----- */
+    footer {
+        background-color: #23173F;
+        padding: 1vw;
+        margin: 5vw 0 0 0;
+        display: block;
+    }
+
+
+    .copyright {
+        font-size: 18px;
+    }
+
+    footer nav a {
+        font-size: 5vw;
+        margin: 2px;
+        color: #56349F;
+    }
+
+    footer nav a {
+        font-size: 5vw;
+    }
+
+    footer nav button {
+        font-size: 5vw;
+    }
+
+    p.nomes {
+        font-size: 20px;
+    }
+
+    div.botoes-footer {
+        display: flex;
+    }
+
+    div.botoes-footer button {
+        font-size: 25px;
+        color: #56349F;
+    }
+
+    /*-----header-----*/
+
+
+
+    /*vai usar javascript*/
+
+
+
+    /* -----index.html----- */
+
+    .parte-azul {
+        background-color: #1C2D76;
+        background: url(../imagens/enxoval.png) no-repeat, #1C2D76;
+        background-size: 100% auto, auto;
+        display: block;
+        width: 90%;
+        margin: 30px auto;
+        border-radius: 30px;
+        padding: 40vw 0 10vw 5vw;
+        color: white;
+    }
+
+    .esquerda {
+        display: block;
+    }
+
+
+
+    .parte-azul h1 {
+        font-size: 60px;
+    }
+
+    .parte-azul p {
+        font-size: 15px;
+        margin: 0 0 0 12vw
+    }
+
+
+    .parte-roxa {
+        background-color: #56349F;
+        width: 80%;
+        padding: 40px;
+        display: block;
+        border-radius: 30px;
+        margin: auto;
+    }
 
-    /*obs dica da hali: repetir o menu no html e dps botar 
+    .parte-roxa h2 {
+        font-family: "Abhaya Libre", serif;
+        font-weight: 800;
+        font-size: 25px;
+        color: #191919;
+        text-align: center;
+        margin: 0;
+    }
+
+    .parte-roxa p {
+        font-size: 20px;
+        margin: 2vw;
+    }
+
+    section.convite div.parte-roxa a.botao-roxo {
+        font-size: 20px;
+        margin: 10vw 0 0 0 auto;
+        max-width: 90%;
+    }
+
+    section.convite div.parte-roxa a.botao-roxo:hover {
+        transform: scale(0.95);
+        transition: 0.2s ease-in-out;
+    }
+
+    .botoes {
+        display: block;
+    }
+
+    button {
+        display: block;
+        margin: 1vw;
+        font-size: 10px;
+        font-family: "Baloo Bhai 2", sans-serif;
+        border-radius: 40px;
+        border: none;
+        padding: 0 12px 0 12px;
+        color: #191919;
+    }
+
+    button a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    section.convite a.insta {
+        margin: 5vw auto;
+        font-size: 20px;
+        text-align: center;
+        width: 70%;
+    }
+
+    section.convite a.twt {
+        margin: 5vw auto;
+        font-size: 20px;
+
+        text-align: center;
+        width: 70%;
+    }
+
+    section.convite a:hover {
+        transform: scale(0.95);
+        transition: transform 0.2s ease-in-out;
+
+    }
+
+    section.convite {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* -----2-oqueésono.html----- */
+
+    p.introducao {
+        max-width: 90vw;
+        margin: auto;
+        color: #D0D0D0;
+    }
+
+    div.conteudo-azul {
+        max-width: 100%;
+    }
+
+    div.conteudo-roxo {
+        max-width: 100%;
+    }
+
+
+    img.carrossel {
+        max-width: 80%;
+    }
+
+    /* -----3-sonoesaudemental----- */
+
+    /* -----3.1-beneficiosemaleficios----- */
+
+    section.tudo {
+        display: block;
+        margin: auto;
+        width: 90%;
+    }
+
+    section.beneficios,
+    section.maleficios,
+    section.porquebeneficios,
+    section.porquemaleficios {
+        width: 100%;
+        margin: 2vw auto;
+    }
+
+    h2.h2-branco {
+        font-size: 30px;
+    }
+
+    h2.h2-preto {
+        font-size: 30px;
+    }
+
+    section.beneficios {
+        width: 90%;
+    }
+
+    section.maleficios {
+        width: 90%;
+    }
+
+    section.porquebeneficios {
+        width: 90%;
+    }
+
+    section.porquemaleficios {
+        width: 90%;
+    }
+
+    /*-----4-bonsemaushabitos.html-----*/
+
+    section.inicio-4 p {
+        text-align: center;
+    }
+
+    div.bonsEMausHabitos {
+        display: block;
+        width: 100%;
+    }
+
+    section.bons img {
+        width: 25%;
+    }
+
+    section.maus img {
+        width: 25%;
+    }
+
+    section.bons {
+        padding: 5vw;
+    }
+
+    section.maus {
+        padding: 5vw;
+    }
+
+    img {
+        width: 80%;
+        display: block;
+        margin: auto;
+        border-radius: 30px;
+    }
+
+    button.maus {
+        background-color: #5E1616;
+        color: #D0D0D0;
+        font-size: 30px;
+
+    }
+
+    button.bons {
+        background-color: #165E26;
+        color: #D0D0D0;
+        font-size: 30px;
+    }
+
+
+    /*-----4.1-rotinaidealdosono.html-----*/
+    section.rotina ul {
+        font-size: 23px;
+        max-width: 80vw;
+    }
+
+    section.rotina2 ol {
+        font-size: 23px;
+        max-width: 80vw;
+    }
+
+
+    section.rotina2 ul li {
+        color: #8663D2;
+        font-weight: bold;
+    }
+
+    /*-----5-tratamentoedoencas.html-----*/
+    div.conteudo-azul ul {
+        font-family: "Baloo Bhai 2", sans-serif;
+        font-size: 20px;
+        max-width: 80vw;
+    }
+
+    div.conteudo-azul ul li {
+        list-style: circle;
+    }
+
+    div.conteudo-azul ul p {
+        font-size: 20px;
+        max-width: 80vw;
+
+    }
+
+    img.tratamentos {
+        width: 80%;
+    }
+
+    div.tratamentos {
+        margin: auto;
+    }
+
+    /* -----7-areadecontatoeajuda.html-----*/
+
+    summary {
+        font-family: "Baloo Bhai 2", sans-serif;
+        color: #D0D0D0;
+        font-size: 20px;
+        margin: 10px;
+        list-style: none;
+        width: 70%;
+        border-bottom: 4px solid #1C2D76;
+        padding-bottom: 18px;
+    }
+
+    section.faq {
+        padding: 0 5vw;
+    }
+
+    p.expansao {
+        font-family: "Baloo Bhai 2", sans-serif;
+        color: #aca7a7;
+        font-size: 20px;
+        margin: 20px;
+        max-width: fit-content;
+    }
+
+    p.expansao a {
+        font-family: "Baloo Bhai 2", sans-serif;
+        color: #293f9f;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    /*-----8-sobrenos.html-----*/
+    ul li {
+        color: #3C2370;
+    }
+
+    img.logo {
+        width: 45vw;
+    }
+
+    img.sobreNos {
+        width: 50vw;
+        height: 42vw;
+        margin: 0;
+
+    }
+}
+
+/* atendimento dev web: 
+footer: botao de topo nao fica embaixo, mandei email para o professor kennedy
+*/
+
+/*obs dica da hali: repetir o menu no html e dps botar 
     <button onclick="menuShow()"> </button> ><img class="icon" src="../imagens/menu.png"></button>
-    e fazer javascript pra mostrar*/
-}
+    e fazer javascript pra mostrar header de celular*/
+
+    /*obs: COISAS QUE MUDARÃO COM JAVASCRIPT -
+    a galeria de imagens do N1, N2 E N3
+    os botões de fontes aparecerão um bloco com todas as fontes quando aperta
+    a header para celulares
+    */
 
 /*       ==============================================3-saude mental============================================================================================ */
 
-
-
-/* atendimento dev web: 
-footer: botao de topo nao fica embaixo (mandei email para professor)
-*/
-
-/*ARRUMAR:
-tela inicial hypnos no celular e centralizar botão
-botões no celular
-*/
 @media screen and (min-width: 900px) {
 
-    iframe{
-    width: 650px;
-    height: 350px;
-}
+    iframe {
+        width: 650px;
+        height: 350px;
+    }
+
+    section.tudo {
+        display: flex;
+        justify-content: center;
+        gap: 2vw;
+        margin: auto;
+        width: 90%;
+    }
+
+    .esquerda,
+    .direita {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+    }
+
+    section.beneficios,
+    section.maleficios,
+    section.porquebeneficios,
+    section.porquemaleficios {
+        width: 100%;
+        margin: 2vw 0;
+    }
 }
