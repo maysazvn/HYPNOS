@@ -136,7 +136,7 @@ footer {
 
 .copyright {
     font-size: 20px;
-    color: #56349F;
+    color: #8663D2;
 }
 
 .esquerda-footer {
@@ -146,12 +146,12 @@ footer {
 footer nav a {
     font-size: 1.5rem;
     margin: 2px;
-    color: #56349F;
+    color: #8663D2;
 }
 
 footer nav a.botao-topo {
     font-size: 2vw;
-    color: #3C2370;
+    color: #8663D2;
     border-radius: 50px;
     background: white;
     padding: 10px;
@@ -167,12 +167,12 @@ footer nav a.botao-topo:hover {
     font-family: "Abhaya Libre", serif;
     font-weight: 800;
     font-size: 25px;
-    color: #56349F;
+    color: #8663D2;
 }
 
 footer nav button {
     font-size: 2vw;
-    color: #3C2370;
+    color: #8663D2;
 }
 
 p.nomes {
@@ -290,11 +290,6 @@ section.convite {
     color: #0D1745;
 }
 
-.parte-azul img {
-    width: 100%;
-    border-radius: 30px;
-    margin: -30px;
-}
 
 .parte-azul p {
     font-family: "Abhaya Libre", serif;
@@ -325,7 +320,7 @@ section.convite {
 
 .parte-roxa p {
     font-family: "Baloo Bhai 2", sans-serif;
-    color: #23173F;
+    color: #191919;
     font-size: 30px;
     text-align: center;
 }
@@ -335,7 +330,7 @@ section.convite div.parte-roxa a.botao-roxo {
     display: block;
     text-align: center;
     background-color: #191919;
-    color: #56349F;
+    color: #8663D2;
     font-family: "Abhaya Libre", serif;
     font-weight: 800;
     font-size: 30px;
