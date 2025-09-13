@@ -82,8 +82,8 @@ div.conteudo-roxo {
     background-color: #23173F;
 }
 
-div.conteudo-roxo2{
-     margin: 2vw auto;
+div.conteudo-roxo2 {
+    margin: 2vw auto;
     padding: 5vw 5vw;
     max-width: 90vw;
     background-color: #23173F;
@@ -109,10 +109,35 @@ button.azul {
 }
 
 
-div.centralizarBotoes {
+/*div.centralizarBotoes {
     justify-content: center;
     display: flex;
+}*/
+
+div.centralizarBotoes h2{
+   
+    text-align: center;
+    margin: 5vw 0 0 0;
 }
+
+div.centralizarBotoes h2 span{
+    border-radius: 50px;
+    font-family: "Baloo Bhai 2", sans-serif;
+    color: #D0D0D0;
+    font-size: 30px;
+    font-weight: bold;
+    background: #293f9f;
+    padding: 5px 15px;
+}
+div.centralizarBotoes ul li{
+    margin: 15px 0;
+    list-style: disc;
+}
+div.centralizarBotoes ul li a{
+   color: #8697e4;
+}
+
+
 
 a.fontes:hover {
     transform: scale(1.1);
@@ -294,7 +319,7 @@ section.convite {
     font-family: "Emilys Candy", serif;
     font-weight: 400;
     font-size: 140px;
-    color:#6D80D4;
+    color: #6D80D4;
 }
 
 
@@ -304,7 +329,7 @@ section.convite {
     font-size: 40px;
     color: #D0D0D0;
     position: absolute;
-    margin: 6vw 0 0 12vw
+    margin-left: 10vw;
 }
 
 
@@ -337,7 +362,7 @@ section.convite div.parte-roxa a.botao-roxo {
     display: block;
     text-align: center;
     background-color: #d0d0d0;
-    color: #8663D2;
+    color: #56349F;
     font-family: "Abhaya Libre", serif;
     font-weight: 800;
     font-size: 30px;
@@ -346,7 +371,7 @@ section.convite div.parte-roxa a.botao-roxo {
     padding: 10px 15px;
     margin: 20px auto;
     text-decoration: none;
-    max-width: 20vw;
+    max-width: 90vw;
 }
 
 section.convite div.parte-roxa a.botao-roxo:hover {
@@ -391,6 +416,43 @@ section.convite a:hover {
     transform: scale(0.95);
     transition: transform 0.2s ease-in-out;
 
+}
+
+.parte-azul2 {
+    background-color: #1C2D76;
+    display: flex;
+    width: 80%;
+    margin: 30px auto;
+    border-radius: 30px;
+    padding: 5vw;
+    color: white;
+    align-items: center;
+    gap: 55px;
+}
+
+div.parte-azul2 a.botao-azul {
+    display: block;
+    text-align: center;
+    background-color: #d0d0d0;
+    color: #293f9f;
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-size: 30px;
+    border-radius: 100px;
+    border: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    max-width: 32vw;
+    margin: 2vw 0 0 0;
+}
+
+div.parte-azul2 a.botao-azul:hover {
+    transform: scale(0.95);
+    transition: 0.2s ease-in-out;
+}
+
+div.parte-azul2 img{
+    width: 100%;
 }
 
 /* -----2-oqueésono.html----- */
@@ -679,7 +741,7 @@ img.sobreNos {
 
 }
 
-div.fotos{
+div.fotos {
     display: flex;
 }
 
@@ -847,10 +909,7 @@ div.fotos{
     }
 
     .parte-roxa h2 {
-        font-family: "Abhaya Libre", serif;
-        font-weight: 800;
         font-size: 25px;
-        color: #191919;
         text-align: center;
         margin: 0;
     }
@@ -1128,11 +1187,14 @@ footer: botao de topo nao fica embaixo, mandei email para o professor kennedy
     <button onclick="menuShow()"> </button> ><img class="icon" src="../imagens/menu.png"></button>
     e fazer javascript pra mostrar header de celular*/
 
-    /*obs: COISAS QUE MUDARÃO COM JAVASCRIPT -
+/*obs: COISAS QUE MUDARÃO COM JAVASCRIPT -
     a galeria de imagens do N1, N2 E N3
     os botões de fontes aparecerão um bloco com todas as fontes quando aperta
     a header para celulares
     */
+
+/* arrumar o para dormir como os deuses
+    ver como dá pra fazer as fontes */
 
 /*       ==============================================3-saude mental============================================================================================ */
 
@@ -1151,11 +1213,15 @@ footer: botao de topo nao fica embaixo, mandei email para o professor kennedy
         width: 90%;
     }
 
-    .esquerda,
+    
     .direita {
         display: flex;
         flex-direction: column;
         width: 45%;
+    }
+
+    .esquerda{
+        width:45% ;
     }
 
     section.beneficios,
