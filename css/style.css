@@ -161,7 +161,10 @@ footer {
     margin: 5vw 0 0 0;
     display: flex;
     justify-content: space-around;
-    align-items: baseline;
+    position: relative;
+    overflow: hidden;
+   /* align-items: center;
+
     /*Ver no atendimento dev web*/
 }
 
@@ -173,6 +176,11 @@ footer {
 
 .esquerda-footer {
     display: block;
+}
+
+footer nav.botao-topo{
+    position: relative;
+   top: 180px;
 }
 
 footer nav a {
