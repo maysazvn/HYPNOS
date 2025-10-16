@@ -114,13 +114,13 @@ button.azul {
     display: flex;
 }*/
 
-div.centralizarBotoes h2{
-   
+div.centralizarBotoes h2 {
+
     text-align: center;
     margin: 5vw 0 0 0;
 }
 
-div.centralizarBotoes h2 span{
+div.centralizarBotoes h2 span {
     border-radius: 50px;
     font-family: "Baloo Bhai 2", sans-serif;
     color: #D0D0D0;
@@ -129,12 +129,14 @@ div.centralizarBotoes h2 span{
     background: #293f9f;
     padding: 5px 15px;
 }
-div.centralizarBotoes ul li{
+
+div.centralizarBotoes ul li {
     margin: 15px 0;
     list-style: disc;
 }
-div.centralizarBotoes ul li a{
-   color: #8697e4;
+
+div.centralizarBotoes ul li a {
+    color: #8697e4;
 }
 
 
@@ -163,7 +165,7 @@ footer {
     justify-content: space-around;
     position: relative;
     overflow: hidden;
-   /* align-items: center;
+    /* align-items: center;
 
     /*Ver no atendimento dev web*/
 }
@@ -178,9 +180,9 @@ footer {
     display: block;
 }
 
-footer nav.botao-topo{
+footer nav.botao-topo {
     position: relative;
-   top: 180px;
+    top: 180px;
 }
 
 footer nav a {
@@ -293,6 +295,15 @@ header nav ul li a:hover {
     transform: scale(0.9);
     transition: 0.2s ease-in-out;
     color: #0D1745;
+}
+
+.menu {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #D0D0D0;
+    cursor: pointer;
 }
 
 
@@ -459,7 +470,7 @@ div.parte-azul2 a.botao-azul:hover {
     transition: 0.2s ease-in-out;
 }
 
-div.parte-azul2 img{
+div.parte-azul2 img {
     width: 100%;
 }
 
@@ -873,7 +884,90 @@ div.fotos {
 
 
 
-    /*vai usar javascript*/
+    /*.menu-toggle {
+        display: none;
+        background: none;
+        border: none;
+        font-size: 1.8rem;
+        color: #235158;
+        cursor: pointer;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #f8fafc;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 70%;
+        padding: 20px;
+        box-shadow: -2px 0 8px rgba(0, 0, 0, 0.15);
+        border-radius: 15px 0 0 15px;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .sub-menu {
+        position: static;
+        box-shadow: none;
+        padding-left: 15px;
+    }*/
+
+    header nav img{
+        width: 50%;
+    }
+
+    .menu {
+    display: block;
+    z-index: 1001;
+  }
+
+  .navLinks {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 250vw;
+    background-color: #0D1745;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 100px 20px;
+    gap: 20px;
+    list-style: none;
+    transition: right 0.4s ease;
+    z-index: 1000;
+  }
+
+  .navLinks.active {
+    right: 0;
+  }
+
+  .navLinks li a {
+    background-color: transparent;
+    padding: 15px;
+    font-size: 18px;
+    color: #D0D0D0;
+  }
+
+  .sub {
+    position: static;
+    display: none;
+    background-color: #1C2D76;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  .navLinks li:hover .sub {
+    display: block;
+  }
 
 
 
@@ -1075,7 +1169,7 @@ div.fotos {
         padding: 5vw;
     }
 
-    img {
+    .maus img {
         width: 80%;
         display: block;
         margin: auto;
@@ -1221,15 +1315,15 @@ footer: botao de topo nao fica embaixo, mandei email para o professor kennedy
         width: 90%;
     }
 
-    
+
     .direita {
         display: flex;
         flex-direction: column;
         width: 45%;
     }
 
-    .esquerda{
-        width:45% ;
+    .esquerda {
+        width: 45%;
     }
 
     section.beneficios,
