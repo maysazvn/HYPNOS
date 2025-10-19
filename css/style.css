@@ -36,7 +36,7 @@ p {
     max-width: 50vw;
 }
 
-img{
+img {
     width: 80%;
     border-radius: 15px;
 }
@@ -157,14 +157,14 @@ button.azul {
     transition: .2s ease;
     transform: scale(1.1);
     cursor: pointer;
-    background:  #5c34b2ac;
+    background: #5c34b2ac;
 }
 
 .centralizarBotoes button.azul:hover {
     transition: .2s ease;
     transform: scale(1.1);
     cursor: pointer;
-    background:  #354cb7c2;
+    background: #354cb7c2;
 }
 
 div.centralizarBotoes h2 {
@@ -218,7 +218,7 @@ footer {
     justify-content: space-around;
     position: relative;
     overflow: hidden;
-    /* align-items: center;
+    align-items: center;
 
     /*Ver no atendimento dev web*/
 }
@@ -227,6 +227,7 @@ footer {
 .copyright {
     font-size: 20px;
     color: #8663D2;
+    margin: 1vw 0;
 }
 
 .esquerda-footer {
@@ -236,6 +237,7 @@ footer {
 footer nav.botao-topo {
     position: relative;
     top: 180px;
+    margin: 1vw 0;
 }
 
 footer nav a {
@@ -263,6 +265,7 @@ footer nav a.botao-topo:hover {
     font-weight: 800;
     font-size: 25px;
     color: #8663D2;
+    margin: 1vw 0;
 }
 
 footer nav button {
@@ -274,20 +277,57 @@ p.nomes {
     font-size: 20px;
 }
 
-div.botoes-footer {
-    display: flex;
+footer form {
+    background-color: #2f2155;
+    border-radius: 25px;
+    padding: 30px 25px;
+    width: 100%;
+    color: #e3e3e3;
+    box-shadow: 0 6px 20px #0000005b;
 }
 
-div.botoes-footer a:hover {
-    color: white;
+footer form p {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+footer label {
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+    color: #d0d0d0;
+}
+
+footer input,
+footer textarea {
+    background-color: #3c2d70;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 10px 12px;
+    font-size: 1rem;
+    font-family: "Baloo Bhai 2", sans-serif;
+}
+
+div.botoes-footer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
 }
 
 div.botoes-footer button {
-    font-size: 25px;
-    color: #56349F;
-    margin: 5px;
+    background-color: #d0d0d0;
+    color: #56349f;
     border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 18px;
     font-family: "Baloo Bhai 2", sans-serif;
+    cursor: pointer;
+}
+
+div.botoes-footer button:hover {
+    transition: .2s ease;
+    transform: scale(0.95);
 }
 
 /*-----header-----*/
@@ -404,102 +444,104 @@ section.convite {
     margin-left: 10vw;
 }
 
+section.convite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    margin: 5vw auto;
+    text-align: center;
+}
 
 .parte-roxa {
-    background-color: #56349F;
-    width: 32%;
-    padding: 40px;
-    display: block;
+    background: #5f3ab8;
+    width: 25%;
+    padding: 60px 40px;
     border-radius: 30px;
+    color: #d0d0d0;
+    box-shadow: 0 8px 25px #23173F;
 }
 
 .parte-roxa h2 {
     font-family: "Abhaya Libre", serif;
     font-weight: 800;
-    font-size: 40px;
-    color: #d0d0d0;
-    text-align: center;
-    margin: 0;
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
 }
 
 .parte-roxa p {
     font-family: "Baloo Bhai 2", sans-serif;
-    color: #d0d0d0;
-    font-size: 30px;
-    text-align: center;
+    color: #e2e2e2;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    line-height: 1.4;
 }
 
-
-section.convite div.parte-roxa a.botao-roxo {
-    display: block;
-    text-align: center;
+.parte-roxa .botao-roxo {
     background-color: #d0d0d0;
     color: #56349F;
     font-family: "Abhaya Libre", serif;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 1.5rem;
     border-radius: 100px;
-    border: none;
-    padding: 10px 15px;
-    margin: 20px auto;
+    padding: 15px 35px;
     text-decoration: none;
-    max-width: 90vw;
+    box-shadow: 0 5px 15px rgba(128, 128, 128, 0.518);
 }
 
-section.convite div.parte-roxa a.botao-roxo:hover {
-    transform: scale(0.95);
-    transition: 0.2s ease-in-out;
+.parte-roxa .botao-roxo:hover {
+    transition: .2s ease;
+    background-color: #f1f1f1;
 }
 
 .botoes {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
 
+section.convite a.insta,
+section.convite a.twt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.5rem;
+    font-family: "Baloo Bhai 2", sans-serif;
+    border-radius: 50px;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: #ffffff;
+    width: fit-content;
+}
 
 section.convite a.insta {
-    display: block;
-    margin: 1vw;
-    font-size: 30px;
-    font-family: "Baloo Bhai 2", sans-serif;
-    border-radius: 40px;
-    border: none;
-    padding: 0 12px 0 12px;
-    color: #191919;
     background-color: #687DD8;
-    text-decoration: none;
-    color: inherit;
 }
 
 section.convite a.twt {
-    display: block;
-    margin: 1vw;
-    font-size: 30px;
-    font-family: "Baloo Bhai 2", sans-serif;
-    border-radius: 40px;
-    border: none;
-    padding: 0 12px 0 12px;
-    color: #191919;
     background-color: #8663D2;
-    text-decoration: none;
-    color: inherit;
 }
 
 section.convite a:hover {
+    transition: .4s ease;
     transform: scale(0.95);
-    transition: transform 0.2s ease-in-out;
-
+    filter: brightness(1.1);
 }
 
 .parte-azul2 {
     background-color: #1C2D76;
     display: flex;
-    width: 80%;
+    width: 50%;
     margin: 30px auto;
     border-radius: 30px;
     padding: 5vw;
     color: white;
     align-items: center;
     gap: 55px;
+    box-shadow: 0 8px 25px #0d1745ab;
 }
 
 div.parte-azul2 a.botao-azul {
@@ -516,11 +558,12 @@ div.parte-azul2 a.botao-azul {
     text-decoration: none;
     max-width: 32vw;
     margin: 2vw 0 0 0;
+    box-shadow: 0 5px 15px rgba(128, 128, 128, 0.518);
 }
 
 div.parte-azul2 a.botao-azul:hover {
-    transform: scale(0.95);
-    transition: 0.2s ease-in-out;
+    transition: .2s ease;
+    background-color: #f1f1f1;
 }
 
 div.parte-azul2 img {
@@ -605,358 +648,359 @@ p.separar {
 /* -----3.1-beneficiosemaleficios----- */
 
 section.int {
-    text-align: center;       
-    max-width: 700px;         
-    margin: 0 auto 2rem;      
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 2rem;
 }
 
 section.tudo {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 2rem;
-  margin-top: 3rem;
-  align-items: stretch;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 3rem;
+    align-items: stretch;
 }
 
 .esquerda,
 .direita {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex: 0 0 25%;
-  gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0 0 25%;
+    gap: 2rem;
 }
 
 .bloco:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 20px rgba(100, 120, 220, 0.3);
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(100, 120, 220, 0.3);
 }
 
 section.beneficios,
 section.maleficios {
-  background: #6d80d4;
-  padding: 1vw;
-  height: 50%;
-  border-radius: 15px;
+    background: #6d80d4;
+    padding: 1vw;
+    height: 50%;
+    border-radius: 15px;
 }
 
 .porquebeneficios,
 .porquemaleficios {
-  background: #1c2d76;
-  padding: 1vw;
-  height: 40%;
-  border-radius: 15px;
+    background: #1c2d76;
+    padding: 1vw;
+    height: 40%;
+    border-radius: 15px;
 }
 
 h2.h2-branco,
 h2.h2-preto {
-  font-family: "Abhaya Libre", serif;
-  font-weight: 800;
-  text-align: center;
-  color: #fff;
-  font-size: 2rem;
-  margin-bottom: 1rem;
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .beneficios h2,
 .maleficios h2 {
-  color: #191919;
+    color: #191919;
 }
 
 ul {
-  padding-left: 1rem;
+    padding-left: 1rem;
 }
 
 ul li {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 p {
-  font-size: 1.3rem;
-  line-height: 1.7;
+    font-size: 1.5rem;
+    line-height: 1.7;
 }
 
 strong {
-  color: #fff;
+    color: #fff;
 }
 
 .beneficios p,
 .maleficios p {
-  color: #1c2d76;
+    color: #1c2d76;
 }
 
 .beneficios strong,
 .maleficios strong {
-  color: #1c2d76;
+    color: #1c2d76;
 }
 
 .porquebeneficios p,
 .porquemaleficios p {
-  color: #cdd4ff;
+    color: #cdd4ff;
 }
 
 section.tudo img {
-  width: 100%;
-  border-radius: 15px;
-  margin: 1rem 0;
-  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    width: 100%;
+    border-radius: 15px;
+    margin: 1rem 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
 /*-----4-bonsemaushabitos.html-----*/
 
 div.bonsEMausHabitos {
-  display: flex;
-  justify-content: center;
-  gap: 2.5rem;
-  margin: 3rem auto;
-  width: 110%;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    margin: 3rem auto;
+    width: 110%;
 }
 
 h2.h2-4 {
-  font-family: "Abhaya Libre", serif;
-  font-weight: 800;
-  font-size: 2.8rem;
-  margin-bottom: 1.2rem;
-  letter-spacing: 1px;
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-size: 2.8rem;
+    margin-bottom: 1.2rem;
+    letter-spacing: 1px;
+    margin: auto;
 }
 
 section.bons,
 section.maus {
-  flex: 1;
-  max-width: 1000px;
-  border-radius: 30px;
-  padding: 3rem 2rem;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background: #fff;
+    flex: 1;
+    max-width: 1000px;
+    border-radius: 30px;
+    padding: 3rem 2rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fff;
 }
 
 /* verde */
 section.bons {
-  border: 5px solid #54b268;
+    border: 5px solid #54b268;
 }
 
 section.bons h2 {
-  color: #2d7a3d;
+    color: #2d7a3d;
 }
 
 section.bons p {
-  color: #1b4523;
+    color: #1b4523;
 }
 
 section.bons strong {
-  color: #2d7a3d;
+    color: #2d7a3d;
 }
 
 /*vermelho */
 section.maus {
-  border: 5px solid #b25454;
+    border: 5px solid #b25454;
 }
 
 section.maus h2 {
-  color: #7a2d2d;
+    color: #7a2d2d;
 }
 
 section.maus p {
-  color: #4a1b1b;
+    color: #4a1b1b;
 }
 
 section.maus strong {
-  color: #7a2d2d;
+    color: #7a2d2d;
 }
 
 /* ====== resto ====== */
 section.bons img,
 section.maus img {
-  width: 100px;
-  margin: 0 auto;
-  border-radius: 50%;
-  padding: 0.5rem;
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 0.5rem;
 }
 
 ul {
-  padding-left: 1.5rem;
-  list-style: none;
+    padding-left: 1.5rem;
+    list-style: none;
 }
 
 ul li {
-  margin-bottom: 1.2rem;
-  list-style: none;
+    margin-bottom: 1.2rem;
+    list-style: none;
 }
 
 .centralizarBotoes {
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
 }
 
 button.bons,
 button.maus {
-  border: none;
-  border-radius: 25px;
-  color: #fff;
-  padding: 0.8rem 2rem;
-  font-size: 1.5rem;
-  font-weight: 600;
-  cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 button.bons {
-  background-color: #2d7a3d;
+    background-color: #2d7a3d;
 }
 
 button.bons:hover {
-  background-color: #1e5d2e;
-  transition: .2s ease;
-  transform: scale(0.9);
+    background-color: #1e5d2e;
+    transition: .2s ease;
+    transform: scale(0.9);
 }
 
 button.maus {
-  background-color: #7a2d2d;
+    background-color: #7a2d2d;
 }
 
 button.maus:hover {
-  background-color: #5e1f1f;
-  transition: .2s ease;
-  transform: scale(0.9);
+    background-color: #5e1f1f;
+    transition: .2s ease;
+    transform: scale(0.9);
 }
 
 /*-----4.1-rotinaidealdosono.html-----*/
 
 section.rotina ul,
 section.rotina2 ol {
-  list-style: none;
-  margin: 2vw 0;
-  padding-left: 0;
-  font-family: "Baloo Bhai 2", sans-serif;
-  font-size: 1.5rem;
-  color: #d8d3ee;
+    list-style: none;
+    margin: 2vw 0;
+    padding-left: 0;
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 1.5rem;
+    color: #d8d3ee;
 }
 
 section.rotina ul li,
 section.rotina2 ol li {
-  background: #6b4bb05b;
-  border-left: 4px solid #9b7af7;
-  padding: 12px 18px;
-  margin: 10px 0;
-  border-radius: 10px;
-   color: #d8d3ee;
+    background: #6b4bb05b;
+    border-left: 4px solid #9b7af7;
+    padding: 12px 18px;
+    margin: 10px 0;
+    border-radius: 10px;
+    color: #d8d3ee;
 }
 
 section.rotina2 ul {
-  margin-top: 10px;
-  margin-left: 1.5rem;
-  list-style: none;
+    margin-top: 10px;
+    margin-left: 1.5rem;
+    list-style: none;
 }
 
 section.rotina2 ul li {
-  font-size: 1.3rem;
-  background: none;
-  border-left: 3px solid #c5b1ff;
-  color: #dcd5ff;
-  padding: 8px 12px;
-  margin: 6px 0;
-  border-radius: 10px;
+    font-size: 1.3rem;
+    background: none;
+    border-left: 3px solid #c5b1ff;
+    color: #dcd5ff;
+    padding: 8px 12px;
+    margin: 6px 0;
+    border-radius: 10px;
 }
 
 /*-----5-tratamentoedoencas.html-----*/
 
 .conteudo-azul ul {
-  list-style: none;
-  margin: 1.5em 0 2.5em;
-  font-family: "Baloo Bhai 2", sans-serif;
-  font-size: 1.5rem;
+    list-style: none;
+    margin: 1.5em 0 2.5em;
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 1.5rem;
 }
 
 .conteudo-azul ul li {
-  background: #6d80d444;
-  border-left: 4px solid #6d80d4;
-  padding: 12px 18px;
-  margin: 10px 0;
-  border-radius: 10px;
-  color: #e3e8ff;
+    background: #6d80d444;
+    border-left: 4px solid #6d80d4;
+    padding: 12px 18px;
+    margin: 10px 0;
+    border-radius: 10px;
+    color: #e3e8ff;
 }
 
 
 img.tratamentos {
-  width: 85%;
-  border-radius: 15px;
-  display: block;
-  margin: 2vw auto;
+    width: 85%;
+    border-radius: 15px;
+    display: block;
+    margin: 2vw auto;
 }
 
 
 /* -----7-areadecontatoeajuda.html-----*/
 
 section.faq {
-  padding: 4vw 10vw;
-  border-radius: 25px;
+    padding: 4vw 10vw;
+    border-radius: 25px;
 }
 
 details {
-  background: #6d80d41a;
-  border: 2px solid #6d80d4e8;
-  border-radius: 15px;
-  margin: 1.5rem;
-  padding: 1rem 1.5rem;
-  max-width: 30vw;
+    background: #6d80d41a;
+    border: 2px solid #6d80d4e8;
+    border-radius: 15px;
+    margin: 1.5rem;
+    padding: 1rem 1.5rem;
+    max-width: 30vw;
 }
 
 summary {
-  font-family: "Baloo Bhai 2", sans-serif;
-  font-size: 1.5rem;
-  color: #e3e8ff;
-  cursor: pointer;
-  border-bottom: 2px solid #6d80d46f;
-  max-width: fit-content;
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 1.5rem;
+    color: #e3e8ff;
+    cursor: pointer;
+    border-bottom: 2px solid #6d80d46f;
+    max-width: fit-content;
 
 }
 
 summary .fa-chevron-down {
-  transition: .2s ease;
-  color: #6d80d4;
-  font-size: 1.2rem;
+    transition: .2s ease;
+    color: #6d80d4;
+    font-size: 1.2rem;
 }
 
 details[open] summary .fa-chevron-down {
-  transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
 p.expansao {
-  font-family: "Baloo Bhai 2", sans-serif;
-  font-size: 1.3rem;
-  color: #d0d4f8;
-  margin: 1vw 0 0 0;
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 1.3rem;
+    color: #d0d4f8;
+    margin: 1vw 0 0 0;
 }
 
 p.expansao a {
-  color: #9cbcff;
-  font-weight: bold;
-  text-decoration: none;
+    color: #9cbcff;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 p.expansao a:hover {
     transition: .2s ease;
-  color: #ffffff;
+    color: #ffffff;
 }
 
 /*-----8-sobrenos.html-----*/
 
 .conteudo-roxo2 {
     display: flex;
-    flex-wrap: wrap;         
-    justify-content: center;  
-    gap: 2rem;      
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
     margin: 2vw auto;
     padding: 3vw 3vw;
     max-width: 60vw;
     border-radius: 25px;
     box-shadow: 0 0 25px #5e3fa856;
     background-color: #23173faa;
-    text-align: left;         
+    text-align: left;
 }
 
 .conteudo-roxo2 div {
@@ -970,12 +1014,12 @@ p.expansao a:hover {
 
 
 .integrante {
-    flex: 0 1 calc(33% - 2rem); 
+    flex: 0 1 calc(33% - 2rem);
     background: #e3e0f7;
     border-radius: 25px;
     padding: 1.5rem;
     text-align: center;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -1005,7 +1049,7 @@ p.expansao a:hover {
     margin-top: 1rem;
 }
 
-img.logo{
+img.logo {
     width: 40%;
     border-radius: 100%;
     margin: 2vw;
@@ -1130,8 +1174,8 @@ img.logo{
 
     /*-----header-----*/
 
-    header nav img {
-        width: 50%;
+    header nav img.header {
+        width: 15%;
     }
 
     .menu {
@@ -1152,7 +1196,6 @@ img.logo{
         padding: 100px 20px;
         gap: 20px;
         list-style: none;
-        transition: right 0.4s ease;
         z-index: 1000;
     }
 
@@ -1168,8 +1211,6 @@ img.logo{
     }
 
     .sub {
-        position: static;
-        display: none;
         background-color: #1C2D76;
         border-radius: 10px;
         padding: 5px;
@@ -1178,7 +1219,6 @@ img.logo{
     .navLinks li:hover .sub {
         display: block;
     }
-
 
 
     /* -----index.html----- */
@@ -1353,11 +1393,11 @@ img.logo{
     }
 
     section img {
-    max-width: 100%;  
-    height: auto;
-    display: block;
-    margin: 1rem auto;
-}
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 1rem auto;
+    }
 
     /*-----4-bonsemaushabitos.html-----*/
 
