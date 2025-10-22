@@ -989,6 +989,7 @@ p.expansao a:hover {
 
 /*-----8-sobrenos.html-----*/
 
+
 .conteudo-roxo2 {
     display: flex;
     flex-wrap: wrap;
@@ -1069,12 +1070,16 @@ img.logo {
     p {
         font-family: "Baloo Bhai 2", sans-serif;
         color: #D0D0D0;
-        font-size: 20px;
+        font-size: 1.2rem;
         max-width: 80vw;
     }
 
     p.introducao {
         text-align: center;
+    }
+
+    p.conteudo{
+        font-size: 1.2rem;
     }
 
     h1.h1-azul {
@@ -1135,7 +1140,7 @@ img.logo {
     /* -----footer----- */
     footer {
         background-color: #23173F;
-        padding: 1vw;
+        padding: 3vw;
         margin: 5vw 0 0 0;
         display: block;
     }
@@ -1159,6 +1164,10 @@ img.logo {
         font-size: 5vw;
     }
 
+    form{
+        width: 80%;
+    }
+
     p.nomes {
         font-size: 20px;
     }
@@ -1168,8 +1177,9 @@ img.logo {
     }
 
     div.botoes-footer button {
-        font-size: 25px;
+        font-size: 1rem;
         color: #56349F;
+        padding: 10px;
     }
 
     /*-----header-----*/
@@ -1261,20 +1271,20 @@ img.logo {
     }
 
     .parte-roxa h2 {
-        font-size: 25px;
+        font-size: 1.5rem;
         text-align: center;
         margin: 0;
     }
 
     .parte-roxa p {
-        font-size: 20px;
+        font-size: 1.2rem;
         margin: 2vw;
     }
 
     section.convite div.parte-roxa a.botao-roxo {
-        font-size: 20px;
-        margin: 10vw 0 0 0 auto;
-        max-width: 90%;
+        font-size: 1.2rem;
+        margin-top: 10px;
+        max-width: 80%;
     }
 
     section.convite div.parte-roxa a.botao-roxo:hover {
@@ -1329,6 +1339,33 @@ img.logo {
         align-items: center;
     }
 
+    .parte-azul2 {
+    display: block;
+    width: 80%;
+    margin: 30px auto;
+    padding: 5vw;
+    align-items: center;
+    gap: 55px;
+}
+
+div.parte-azul2 a.botao-azul {
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 30px;
+    padding: 10px 15px;
+    width: 90%;
+    margin-top: 3vw;
+}
+
+div.parte-azul2 a.botao-azul:hover {
+    transition: .2s ease;
+    background-color: #f1f1f1;
+}
+
+div.parte-azul2 img {
+    width: 100%;
+}
     /* -----2-oqueésono.html----- */
 
     p.introducao {
@@ -1357,14 +1394,14 @@ img.logo {
     section.tudo {
         display: block;
         margin: auto;
-        width: 50%;
+        width: 90%;
     }
 
     section.beneficios,
     section.maleficios,
     section.porquebeneficios,
     section.porquemaleficios {
-        width: 45%;
+        width: 90%;
         margin: 2vw auto;
     }
 
@@ -1392,11 +1429,11 @@ img.logo {
         width: 90%;
     }
 
-    section img {
-        max-width: 100%;
-        height: auto;
-        display: block;
-        margin: 1rem auto;
+    div img {
+        max-width: 90%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
     }
 
     /*-----4-bonsemaushabitos.html-----*/
@@ -1407,7 +1444,7 @@ img.logo {
 
     div.bonsEMausHabitos {
         display: block;
-        width: 100%;
+        width: 90%;
     }
 
     section.bons img {
@@ -1420,10 +1457,12 @@ img.logo {
 
     section.bons {
         padding: 5vw;
+        margin: 2vw;
     }
 
     section.maus {
         padding: 5vw;
+        margin: 2vw;
     }
 
     .maus img {
@@ -1436,25 +1475,25 @@ img.logo {
     button.maus {
         background-color: #5E1616;
         color: #D0D0D0;
-        font-size: 30px;
+        font-size: 1.2rem;
 
     }
 
     button.bons {
         background-color: #165E26;
         color: #D0D0D0;
-        font-size: 30px;
+        font-size: 1.2rem;
     }
 
 
     /*-----4.1-rotinaidealdosono.html-----*/
     section.rotina ul {
-        font-size: 23px;
+        font-size: 1.2rem;
         max-width: 80vw;
     }
 
     section.rotina2 ol {
-        font-size: 23px;
+        font-size: 1.2rem;
         max-width: 80vw;
     }
 
@@ -1467,7 +1506,7 @@ img.logo {
     /*-----5-tratamentoedoencas.html-----*/
     div.conteudo-azul ul {
         font-family: "Baloo Bhai 2", sans-serif;
-        font-size: 20px;
+        font-size: 1.2rem;
         max-width: 80vw;
     }
 
@@ -1497,7 +1536,7 @@ img.logo {
         font-size: 20px;
         margin: 10px;
         list-style: none;
-        width: 70%;
+        width: 90%;
         border-bottom: 4px solid #1C2D76;
         padding-bottom: 18px;
     }
