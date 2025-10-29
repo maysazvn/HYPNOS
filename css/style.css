@@ -1393,7 +1393,8 @@ img.logo {
     }
 
     .parte-azul2 {
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 80%;
     margin: 30px auto;
     padding: 5vw;
@@ -1408,7 +1409,8 @@ div.parte-azul2 a.botao-azul {
     border-radius: 30px;
     padding: 10px 15px;
     width: 90%;
-    margin-top: 3vw;
+    justify-content: center;
+    margin: 3vw auto;
 }
 
 div.parte-azul2 a.botao-azul:hover {
@@ -1594,6 +1596,10 @@ div.parte-azul2 img {
         padding-bottom: 18px;
     }
 
+    details{
+        max-width: 75%;
+    }
+
     section.faq {
         padding: 0 5vw;
     }
@@ -1614,6 +1620,7 @@ div.parte-azul2 img {
     }
 
     /*-----8-sobrenos.html-----*/
+
     ul li {
         color: #3C2370;
     }
@@ -1634,20 +1641,15 @@ div.parte-azul2 img {
 footer: botao de topo nao fica embaixo, mandei email para o professor kennedy
 */
 
-/*obs dica da hali: repetir o menu no html e dps botar 
-    <button onclick="menuShow()"> </button> ><img class="icon" src="../imagens/menu.png"></button>
-    e fazer javascript pra mostrar header de celular*/
-
 /*obs: COISAS QUE MUDARÃO COM JAVASCRIPT -
     a galeria de imagens do N1, N2 E N3
     os botões de fontes aparecerão um bloco com todas as fontes quando aperta
     a header para celulares
     */
 
-/* arrumar o para dormir como os deuses
-    ver como dá pra fazer as fontes */
-
-/*       ==============================================3-saude mental============================================================================================ */
+/* coisas pra arrumar:
+centralizacao da imagem em beneficios e maleficios
+alinhamento pagina sobre nós */
 
 @media screen and (min-width: 900px) {
 
