@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   menu.addEventListener("click", () => {
     navLinks.classList.toggle("active");
 
-    const icon = menuToggle.querySelector("i");
+    const icon = menu.querySelector("i");
     icon.classList.toggle("fa-bars");
     icon.classList.toggle("fa-xmark");
   });

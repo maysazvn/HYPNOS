@@ -250,12 +250,13 @@ footer nav a.botao-topo {
     font-size: 2vw;
     color: #8663D2;
     border-radius: 50px;
-    background: white;
+    background: #D0D0D0;
     padding: 10px;
     border-radius: 50%;
 }
 
 footer nav a.botao-topo:hover {
+    background: white;
     transform: scale(0.9);
     transition: 0.2s ease-in-out;
 }
@@ -934,8 +935,8 @@ img.tratamentos {
 
 /*-----6-tratamentoedoencas.html-----*/
 
-div.perguntas{
-     margin: 2vw auto;
+div.perguntas {
+    margin: 2vw auto;
     padding: 3vw 3vw;
     max-width: 50vw;
     border-radius: 25px;
@@ -946,43 +947,45 @@ div.perguntas{
     flex-direction: column;
 }
 
-h2.questao{
+h2.questao {
     text-align: center;
     background: #56349f;
     border-radius: 50px;
     color: #D0D0D0;
 }
 
-div.botoesResposta{
+div.botoesResposta {
     display: flex;
     justify-content: center;
     margin: 3vw;
     gap: 5px;
 }
 
-button.sim, button.neutro, button.nao{
+button.sim,
+button.neutro,
+button.nao {
     padding: 10px;
     border-radius: 20px;
     width: 12%;
 }
 
-button.sim{
+button.sim {
     background: #165E26;
     color: #165E26;
 }
 
-button.neutro{
+button.neutro {
     background: #b1872d;
     color: #b1872d;
 }
 
-button.nao{
+button.nao {
     background: #7a2d2d;
-    color:  #7a2d2d;
+    color: #7a2d2d;
 }
 
-button.fa-solid{
-color: #3C2370;
+button.fa-solid {
+    color: #3C2370;
 }
 
 
@@ -1131,7 +1134,7 @@ img.logo {
         text-align: center;
     }
 
-    p.conteudo{
+    p.conteudo {
         font-size: 1.2rem;
     }
 
@@ -1195,7 +1198,23 @@ img.logo {
         background-color: #23173F;
         padding: 3vw;
         margin: 5vw 0 0 0;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    footer div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .botoes-redes {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
     }
 
 
@@ -1209,15 +1228,16 @@ img.logo {
         color: #56349F;
     }
 
-    footer nav a {
+    footer nav a.botao-topo {
         font-size: 5vw;
+        margin: 5vw;
     }
 
     footer nav button {
         font-size: 5vw;
     }
 
-    form{
+    form {
         width: 80%;
     }
 
@@ -1367,14 +1387,12 @@ img.logo {
 
     section.convite a.insta {
         margin: 5vw auto;
-        font-size: 20px;
-        text-align: center;
-        width: 70%;
+        font-size: 1.1rem;
     }
 
     section.convite a.twt {
         margin: 5vw auto;
-        font-size: 20px;
+        font-size: 1.1rem;
 
         text-align: center;
         width: 70%;
@@ -1393,34 +1411,35 @@ img.logo {
     }
 
     .parte-azul2 {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: 30px auto;
-    padding: 5vw;
-    align-items: center;
-    gap: 55px;
-}
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 30px auto;
+        padding: 5vw;
+        align-items: center;
+        gap: 55px;
+    }
 
-div.parte-azul2 a.botao-azul {
-    display: block;
-    text-align: center;
-    font-size: 1rem;
-    border-radius: 30px;
-    padding: 10px 15px;
-    width: 90%;
-    justify-content: center;
-    margin: 3vw auto;
-}
+    div.parte-azul2 a.botao-azul {
+        display: block;
+        text-align: center;
+        font-size: 1rem;
+        border-radius: 30px;
+        padding: 10px 15px;
+        width: 90%;
+        justify-content: center;
+        margin: 3vw auto;
+    }
 
-div.parte-azul2 a.botao-azul:hover {
-    transition: .2s ease;
-    background-color: #f1f1f1;
-}
+    div.parte-azul2 a.botao-azul:hover {
+        transition: .2s ease;
+        background-color: #f1f1f1;
+    }
 
-div.parte-azul2 img {
-    width: 100%;
-}
+    div.parte-azul2 img {
+        width: 100%;
+    }
+
     /* -----2-oqueésono.html----- */
 
     p.introducao {
@@ -1484,11 +1503,13 @@ div.parte-azul2 img {
         width: 90%;
     }
 
-    div img {
-        max-width: 90%;
+    div {
         display: flex;
         justify-content: center;
-        margin: 0 auto;
+    }
+
+    div img {
+        max-width: 90%;
     }
 
     /*-----4-bonsemaushabitos.html-----*/
@@ -1596,7 +1617,7 @@ div.parte-azul2 img {
         padding-bottom: 18px;
     }
 
-    details{
+    details {
         max-width: 75%;
     }
 
@@ -1621,19 +1642,67 @@ div.parte-azul2 img {
 
     /*-----8-sobrenos.html-----*/
 
-    ul li {
-        color: #3C2370;
+    /*
+
+  .conteudo-roxo2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem; 
     }
 
-    img.logo {
-        width: 45vw;
+    .integrante {
+        width: 90%;
+        text-align: center;
     }
 
     img.sobreNos {
-        width: 50vw;
-        height: 42vw;
-        margin: 0;
+        width: 60vw;
+        margin: 1rem 0;
+    }
 
+    img.logo {
+        width: 60vw;
+        display: block;
+        margin: 2rem auto;
+    }
+}*/
+
+    .conteudo-roxo2 {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .integrante {
+        flex: 0 0 95%;
+        max-width: 65%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .integrante h2 {
+        margin-bottom: 0.5rem;
+    }
+
+    .integrante ul {
+        order: 2;
+        padding: 0;
+        margin: 0.5rem 0 1rem 0;
+        list-style: none;
+    }
+
+    .integrante img.sobreNos {
+        width: 60vw;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    img.logo {
+        width: 60vw;
+        display: block;
+        margin: 2rem auto;
     }
 }
 
