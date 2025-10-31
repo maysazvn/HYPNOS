@@ -579,7 +579,7 @@ p.conteudo {
     line-height: 1.9;
     margin-bottom: 2rem;
 }
-
+/*
 img.carrossel {
     width: 100%;
     max-width: 400px;
@@ -588,7 +588,7 @@ img.carrossel {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.386);
     display: flex;
     justify-content: center;
-}
+}*/
 
 iframe {
     width: 100%;

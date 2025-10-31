@@ -98,16 +98,96 @@
                 </p>
             </section>
             <section>
-                <div class="OCARROSSEL">
-                    <div class="IMAGENS">
-                        <img src="imagens/1.png" alt="Sono NREM N1" class="carrossel">
-                        <img src="imagens/2.png" alt="Sono NREM N2" class="carrossel">
-                        <img src="imagens/3.png" alt="Sono NREM N3" class="carrossel">
-                        <img src="imagens/flecha.png" alt="Flecha" class="carrossel">
-                <!-- ARRUMAR QUANDO APRENDER JS -->
+                <style>
+                    div.carrossel {
+                        width: 90%;
+                        display: flex;
+                    }
+
+                    div.carrossel>img {
+                        height: 20px;
+                        width: 20px;
+
+
+                    }
+
+
+
+                    div.carrossel>div.container {
+                        display: block;
+                        width: 300px;
+                        height: 300px;
+
+                        overflow: hidden;
+                        background: red;
+                        position: relative;
+
+                    }
+
+                    div.carrossel div.container div {
+                        position: absolute;
+                        display: flex;
+                        width: 900px;
+                        height: 300px;
+
+                    }
+
+                    div.carrossel div.container div img {
+                        width: 300px;
+
+                    }
+                </style>
+                <script>
+                    let posicao = 0;
+
+
+
+                    function move(lado) {
+                        console.log("Oi");
+
+                        if (lado == 1) {
+                            if (posicao < 2) {
+                                posicao += 1;
+                                console.log(posicao)
+                            } else {
+                                posicao = 0;
+                            }
+                        }else{
+                             if (posicao > 0) {
+                                posicao -= 1;
+                                console.log(posicao)
+                            } else {
+                                posicao = 0;
+                            }
+                        }
+
+                        //let container = document.querySelector("div.container div");
+                        let container = document.getElementById("teste");
+                        console.log("-" + (posicao * 300) + "px");
+
+
+
+                        container.style.left += "-" + (posicao * 300) + "px";
+
+                    }
+                </script>
+                <div class="carrossel">
+                    <img src="imagens/flecha.png" alt="Flecha" class="anterior" onclick="move(0)">
+                    <div class="container">
+
+                        <div id="teste">
+                            <img src="imagens/1.png" alt="Sono NREM N1" class="carrossel">
+                            <img src="imagens/2.png" alt="Sono NREM N2" class="carrossel">
+                            <img src="imagens/3.png" alt="Sono NREM N3" class="carrossel">
+
+                            <!-- ARRUMAR QUANDO APRENDER JS -->
+                        </div>
+
                     </div>
+                    <img src="imagens/flecha.png" alt="Flecha" class="proximo" onclick="move(1)">
                 </div>
-                
+
+
             </section>
             <section>
                 <h2 class="h2-azul">
