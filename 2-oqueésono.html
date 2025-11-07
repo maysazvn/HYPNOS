@@ -136,6 +136,9 @@
                         width: 300px;
 
                     }
+                    img.anterior{
+                        transform: rotate(180deg);
+                    }
                 </style>
                 <script>
                     let posicao = 0;
@@ -160,6 +163,7 @@
                                 posicao = 0;
                             }
                         }
+                        
 
                         //let container = document.querySelector("div.container div");
                         let container = document.getElementById("teste");
@@ -172,7 +176,7 @@
                     }
                 </script>
                 <div class="carrossel">
-                    <img src="imagens/flecha.png" alt="Flecha" class="anterior" onclick="move(0)">
+                    <img src="imagens/flecha.png" alt="Flecha" class="anterior" onclick="move(0)" >
                     <div class="container">
 
                         <div id="teste">
