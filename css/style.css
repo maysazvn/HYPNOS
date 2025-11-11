@@ -1,7 +1,6 @@
 /*chamar o kennedy: botao de fontes ta mt grande por algum motivo na pagina 3.1
 subpaginas bugadas no menu celular
-na pagina 4, os dois blocos n estao alinhados. qnd vc tira o display flex eles ficam alinhados
-
+pagina 4.1 ul n pegou formatação
 */
 
 body {
@@ -142,22 +141,28 @@ button a.fontes {
 
 button.roxo {
     background-color: #3C2370;
+    padding: 10px;
 }
 
 button.azul {
     background-color: #1C2D76;
+    padding: 10px;
 }
 
-
-/*div.centralizarBotoes {
+div.centralizarBotoes {
     justify-content: center;
     display: flex;
-}*/
-
-.centralizarBotoes {
-    display: flex;
-    justify-content: center;
+    flex-direction: column;
+    width: 45%;
+    margin: 0 auto;
 }
+
+div.centralizarBotoes ul li {
+    list-style: none !important;
+    margin: 0.5rem 0;
+    width: 90%;
+}
+
 
 .centralizarBotoes button.roxo:hover {
     transition: .2s ease;
@@ -394,7 +399,6 @@ header nav ul li a {
 header nav ul li a:hover {
     transform: scale(0.9);
     transition: 0.2s ease-in-out;
-    color: #0D1745;
 }
 
 .menu {
@@ -791,7 +795,7 @@ section.maus {
 /* verde */
 section.bons {
     border: 5px solid #1e5d2e;
-    background:  #b3e8bf;
+    background: #b3e8bf;
 }
 
 section.bons h2 {
@@ -809,7 +813,7 @@ section.bons strong {
 /*vermelho */
 section.maus {
     border: 5px solid rgb(178, 84, 84);
-    background:  #e8b3b3;
+    background: #e8b3b3;
 }
 
 section.maus h2 {
@@ -920,20 +924,52 @@ section.rotina2 ul li {
 
 /*-----5-tratamentoedoencas.html-----*/
 
-.conteudo-azul ul {
+.conteudo-azul ul, .fontesAzuis {
     list-style: none;
     margin: 1.5em 0 2.5em;
     font-family: "Baloo Bhai 2", sans-serif;
     font-size: 1.5rem;
 }
 
-.conteudo-azul ul li {
+.conteudo-azul ul li, .fontesAzuis li {
     background: #6d80d444;
     border-left: 4px solid #6d80d4;
     padding: 12px 18px;
     margin: 10px 0;
     border-radius: 10px;
     color: #e3e8ff;
+}
+
+.conteudo-roxo ul, .fontesRoxas {
+    list-style: none;
+    margin: 1.5em 0 2.5em;
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 1.5rem;
+}
+
+.conteudo-roxo ul li, .fontesRoxas li {
+    background: #916dd444;
+    border-left: 4px solid #8f6dd4;
+    padding: 12px 18px;
+    margin: 10px 0;
+    border-radius: 10px;
+    color: #ede3ff;
+}
+
+.fontesBrancas {
+    list-style: none;
+    margin: 1.5em 0 2.5em;
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 1.5rem;
+}
+
+.fontesBrancas li {
+    background: #ffffff44;
+    border-left: 4px solid #ffffff;
+    padding: 12px 18px;
+    margin: 10px 0;
+    border-radius: 10px;
+    color: #ffffff;
 }
 
 
