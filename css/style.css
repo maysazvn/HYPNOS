@@ -1,6 +1,8 @@
-/*chamar o kennedy: botao de fontes ta mt grande por algum motivo na pagina 3.1
+/*
 subpaginas bugadas no menu celular
 pagina 4.1 ul n pegou formatação
+galeria de imagens
+o fontes nao ta funcionando
 */
 
 body {
@@ -567,7 +569,7 @@ div.parte-azul2 a.botao-azul {
     border: none;
     padding: 10px 15px;
     text-decoration: none;
-    max-width: 32vw;
+    width: 32vw;
     margin: 2vw 0 0 0;
     box-shadow: 0 5px 15px rgba(128, 128, 128, 0.518);
 }
@@ -600,6 +602,63 @@ img.carrossel {
     display: flex;
     justify-content: center;
 }*/
+
+div.carrossel {
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+div.carrossel>img {
+    height: 50px;
+    width: 50px;
+
+
+}
+
+
+/* caso alterar a imagem deixar o height 25% maior  */
+div.carrossel>div.carro-container {
+    display: block;
+    width: 300px;
+    height: 375px;
+
+    overflow: hidden;
+
+    position: relative;
+
+}
+
+div.carrossel div.carro-container div {
+    position: absolute;
+    display: flex;
+    width: 900px;
+    /**/
+    height: 375px;
+
+}
+
+div.carrossel div.carro-container div img {
+    width: 300px;
+    height: 375px;
+
+}
+
+img.anterior {
+    transform: rotate(180deg);
+    margin: 0 2vw;
+    /*width: 100px;*/
+}
+
+img.proximo {
+    margin: 0 2vw;
+}
+
+div.carrossel {
+    justify-content: center;
+    display: flex;
+    margin-left: 2vw;
+}
 
 iframe {
     width: 100%;
@@ -858,7 +917,7 @@ button.maus {
     border: none;
     border-radius: 25px;
     color: #fff;
-    padding: 0.8rem 2rem;
+    padding: 0.5rem 0.5rem;
     font-size: 1.5rem;
     font-weight: 600;
     cursor: pointer;
@@ -896,6 +955,15 @@ section.rotina2 ol {
     color: #d8d3ee;
 }
 
+.conteudo-azul ul{
+    list-style: none;
+    margin: 2vw 0;
+    padding-left: 0;
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 1.5rem;
+    color: #d3d3ee;
+}
+
 section.rotina ul li,
 section.rotina2 ol li {
     background: #6b4bb05b;
@@ -924,14 +992,25 @@ section.rotina2 ul li {
 
 /*-----5-tratamentoedoencas.html-----*/
 
-.conteudo-azul ul, .fontesAzuis {
+.fontesAzuis {
     list-style: none;
+    margin: 1.5em 0 2.5em;
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 1.5rem;
+    height: 0px;
+    overflow: hidden;
+    transition: 0.5s height;
+}
+
+.conteudo-azul ul{
+     list-style: none;
     margin: 1.5em 0 2.5em;
     font-family: "Baloo Bhai 2", sans-serif;
     font-size: 1.5rem;
 }
 
-.conteudo-azul ul li, .fontesAzuis li {
+.conteudo-azul ul li,
+.fontesAzuis li {
     background: #6d80d444;
     border-left: 4px solid #6d80d4;
     padding: 12px 18px;
@@ -940,14 +1019,19 @@ section.rotina2 ul li {
     color: #e3e8ff;
 }
 
-.conteudo-roxo ul, .fontesRoxas {
+.conteudo-roxo ul,
+.fontesRoxas {
     list-style: none;
     margin: 1.5em 0 2.5em;
     font-family: "Baloo Bhai 2", sans-serif;
     font-size: 1.5rem;
+    height: 0px;
+    overflow: hidden;
+    transition: 0.5s height;
 }
 
-.conteudo-roxo ul li, .fontesRoxas li {
+.conteudo-roxo ul li,
+.fontesRoxas li {
     background: #916dd444;
     border-left: 4px solid #8f6dd4;
     padding: 12px 18px;
@@ -1383,7 +1467,7 @@ img.logo {
 
     .parte-roxa {
         background-color: #56349F;
-        width: 80%;
+        width: 90%;
         padding: 40px;
         display: block;
         border-radius: 30px;
@@ -1398,12 +1482,12 @@ img.logo {
 
     .parte-roxa p {
         font-size: 1.2rem;
-        margin: 2vw;
+        margin-bottom: 5vw;
     }
 
     section.convite div.parte-roxa a.botao-roxo {
-        font-size: 1.2rem;
-        margin-top: 10px;
+        font-size: 1rem;
+        margin: 5vw 0;
         max-width: 80%;
     }
 
@@ -1460,6 +1544,8 @@ img.logo {
     .parte-azul2 {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 80%;
         margin: 30px auto;
         padding: 5vw;
@@ -1473,9 +1559,9 @@ img.logo {
         font-size: 1rem;
         border-radius: 30px;
         padding: 10px 15px;
-        width: 90%;
+        width: 65vw;
         justify-content: center;
-        margin: 3vw auto;
+        margin: 300vw 0 0 0 auto;
     }
 
     div.parte-azul2 a.botao-azul:hover {
