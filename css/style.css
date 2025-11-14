@@ -1,7 +1,6 @@
 /*
-subpaginas bugadas no menu celular
-galeria de imagens
 o fontes nao ta funcionando
+arrumar as perguntas
 */
 
 body {
@@ -620,7 +619,7 @@ div.carrossel>img {
 div.carrossel>div.carro-container {
     display: block;
     width: 300px;
-    height: 375px;
+    height: 400px;
 
     overflow: hidden;
 
@@ -954,7 +953,7 @@ section.rotina2 ol {
     color: #d8d3ee;
 }
 
-.conteudo-azul ul{
+.conteudo-azul ul {
     list-style: none;
     margin: 2vw 0;
     padding-left: 0;
@@ -1001,8 +1000,8 @@ section.rotina2 ul li {
     transition: 0.5s height;
 }
 
-.conteudo-azul ul{
-     list-style: none;
+.conteudo-azul ul {
+    list-style: none;
     margin: 1.5em 0 2.5em;
     font-family: "Baloo Bhai 2", sans-serif;
     font-size: 1.5rem;
@@ -1423,16 +1422,21 @@ img.logo {
         color: #D0D0D0;
     }
 
-    .sub {
-        background-color: #1C2D76;
-        border-radius: 10px;
-        padding: 5px;
-    }
 
-    .navLinks li:hover .sub {
+    header nav ul li {
         display: block;
     }
 
+
+    header nav ul li ul {
+        display: block;
+        background: none;
+        margin-top: 3vw;
+    }
+
+    header nav ul li a span{
+        display: none !important;
+    }
 
     /* -----index.html----- */
 
