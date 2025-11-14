@@ -685,8 +685,14 @@ div.centralizarBotoes ul li {
     margin: 10px 0;
 }
 
-div.centralizarBotoes ul li a {
-    color: #aab6ff;
+div.centralizarBotoes ul li a.verde {
+    color: #276933;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+div.centralizarBotoes ul li a.vermelho {
+    color: #922424;
     text-decoration: none;
     transition: 0.3s;
 }
@@ -1421,7 +1427,6 @@ img.logo {
         font-size: 18px;
         color: #D0D0D0;
     }
-
 
     header nav ul li {
         display: block;
