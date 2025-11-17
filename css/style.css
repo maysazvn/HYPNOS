@@ -203,6 +203,10 @@ div.centralizarBotoes ul li a {
     color: #8697e4;
 }
 
+div.centralizarBotoes ul.fontesRoxas li a {
+    color: #a286e4;
+}
+
 
 
 a.fontes:hover {
@@ -755,7 +759,6 @@ section.beneficios,
 section.maleficios {
     background: #6d80d4;
     padding: 1vw;
-    height: 50%;
     border-radius: 15px;
 }
 
@@ -763,7 +766,6 @@ section.maleficios {
 .porquemaleficios {
     background: #1c2d76;
     padding: 1vw;
-    height: 40%;
     border-radius: 15px;
 }
 
@@ -1049,9 +1051,31 @@ section.rotina2 ul li {
     margin: 1.5em 0 2.5em;
     font-family: "Baloo Bhai 2", sans-serif;
     font-size: 1.5rem;
+    height: 0px;
+    overflow: hidden;
+    transition: 0.5s height;
 }
 
 .fontesBrancas li {
+    background: #ffffff44;
+    border-left: 4px solid #ffffff;
+    padding: 12px 18px;
+    margin: 10px 0;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.fontesBrancas2 {
+    list-style: none;
+    margin: 1.5em 0 2.5em;
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 1.5rem;
+    height: 0px;
+    overflow: hidden;
+    transition: 0.5s height;
+}
+
+.fontesBrancas2 li {
     background: #ffffff44;
     border-left: 4px solid #ffffff;
     padding: 12px 18px;
