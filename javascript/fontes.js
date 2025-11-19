@@ -4,6 +4,7 @@ function abrirBotao() {
   let fontesDois = document.querySelector(".fontesRoxas");
   let fontesTres = document.querySelector(".fontesBrancas");
   let fontesQuatro = document.querySelector(".fontesBrancas2");
+  
 
   if (fontes) {
     if (fontes.style.height == fontes.scrollHeight + "px") {

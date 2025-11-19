@@ -470,7 +470,7 @@ section.convite {
 
 .parte-roxa {
     background: #5f3ab8;
-    width: 25%;
+    width: 45%;
     padding: 60px 40px;
     border-radius: 30px;
     color: #d0d0d0;
@@ -549,7 +549,7 @@ section.convite a:hover {
 .parte-azul2 {
     background-color: #1C2D76;
     display: flex;
-    width: 50%;
+    width: 70%;
     margin: 30px auto;
     border-radius: 30px;
     padding: 5vw;
@@ -1092,7 +1092,7 @@ img.tratamentos {
     margin: 2vw auto;
 }
 
-/*-----6-tratamentoedoencas.html-----*/
+/*-----6-pesquisa.html-----*/
 
 div.perguntas {
     margin: 2vw auto;
@@ -1111,42 +1111,27 @@ h2.questao {
     background: #56349f;
     border-radius: 50px;
     color: #D0D0D0;
-}
-
-div.botoesResposta {
-    display: flex;
-    justify-content: center;
-    margin: 3vw;
-    gap: 5px;
-}
-
-button.sim,
-button.neutro,
-button.nao {
+    margin: 0 0 2vw 0;
     padding: 10px;
-    border-radius: 20px;
-    width: 12%;
+    box-shadow: 5px 2px 15px #23173f86;
+    font-family: "Baloo Bhai 2", sans-serif;
 }
 
-button.sim {
-    background: #165E26;
-    color: #165E26;
+div.perguntas input {
+    margin: 2vw;
 }
 
-button.neutro {
-    background: #b1872d;
-    color: #b1872d;
+button.proximo {
+    padding: 10px 20px;
+    color: #56349F;
+    margin: 0 auto;
 }
 
-button.nao {
-    background: #7a2d2d;
-    color: #7a2d2d;
+button.proximo:hover {
+    transform: scale(0.9);
+    transition: 0.3s;
+    cursor: pointer;
 }
-
-button.fa-solid {
-    color: #3C2370;
-}
-
 
 /* -----7-areadecontatoeajuda.html-----*/
 
@@ -1467,7 +1452,7 @@ img.logo {
         margin-top: 3vw;
     }
 
-    header nav ul li a span{
+    header nav ul li a span {
         display: none !important;
     }
 
@@ -1792,7 +1777,7 @@ img.logo {
         margin: 10px;
         list-style: none;
         width: 90%;
-         border-bottom: 2px solid #6d80d46f;
+        border-bottom: 2px solid #6d80d46f;
         padding-bottom: 18px;
     }
 
