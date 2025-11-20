@@ -1,6 +1,6 @@
 /*
-o fontes nao ta funcionando
-arrumar as perguntas
+header bugada
+video pequenos
 */
 
 body {
@@ -382,6 +382,12 @@ header nav ul li ul {
     padding: 5px 5px;
     top: 100%;
     margin-top: 3px;
+    width: auto;
+}
+
+header nav ul li ul li a {
+    padding: 8px 12px;
+    display: block;
 }
 
 header nav ul li:hover ul {
@@ -1117,14 +1123,51 @@ h2.questao {
     font-family: "Baloo Bhai 2", sans-serif;
 }
 
+div.perguntas label {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 1vw 0;
+    font-family: "Baloo Bhai 2", sans-serif;
+    color: #D0D0D0;
+    font-size: 1.2vw;
+}
+
+div.perguntas label:hover {
+    transition: 0.2s;
+    background: #56349f71;
+    border-radius: 50px;
+    width: 30%;
+    padding: 5px 30px;
+}
+
 div.perguntas input {
-    margin: 2vw;
+    width: 1.2vw;
+    height: 1.2vw;
+    border: 3px solid #caa7ff;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+div.perguntas input:checked {
+    transition: 0.2s;
+    border-color: #a36aff;
+    background: radial-gradient(circle, #a36aff 40%, transparent 40%);
 }
 
 button.proximo {
     padding: 10px 20px;
     color: #56349F;
     margin: 0 auto;
+    display: block;
+    width: 40%;
+}
+
+button.proximo span {
+    margin-right: 15px;
 }
 
 button.proximo:hover {
@@ -1401,7 +1444,7 @@ img.logo {
 
     /*-----header-----*/
 
-    header nav img.header {
+     header nav img.header {
         width: 15%;
     }
 
@@ -1455,6 +1498,7 @@ img.logo {
     header nav ul li a span {
         display: none !important;
     }
+
 
     /* -----index.html----- */
 
@@ -1575,6 +1619,10 @@ img.logo {
         gap: 55px;
     }
 
+    p.teste{
+        margin-bottom: 5vw;
+    }
+
     div.parte-azul2 a.botao-azul {
         display: block;
         text-align: center;
@@ -1582,8 +1630,7 @@ img.logo {
         border-radius: 30px;
         padding: 10px 15px;
         width: 65vw;
-        justify-content: center;
-        margin: 300vw 0 0 0 auto;
+        margin: 0 auto;
     }
 
     div.parte-azul2 a.botao-azul:hover {
@@ -1768,80 +1815,114 @@ img.logo {
         margin: auto;
     }
 
-    /* -----7-areadecontatoeajuda.html-----*/
 
-    summary {
-        font-family: "Baloo Bhai 2", sans-serif;
-        color: #D0D0D0;
-        font-size: 20px;
-        margin: 10px;
-        list-style: none;
-        width: 90%;
-        border-bottom: 2px solid #6d80d46f;
-        padding-bottom: 18px;
+    /*-----6-pesquisa.html-----*/
+
+    div.perguntas {
+        max-width: 90vw;
+        padding: 5vw 6vw;
     }
 
-    details {
-        max-width: 75%;
+    h2.questao {
+        font-size: 1.5rem;
+        padding: 8px;
     }
 
-    section.faq {
-        padding: 0 5vw;
+    div.perguntas label {
+        font-size: 1rem;
+        gap: 10px;
     }
 
-    p.expansao {
-        font-family: "Baloo Bhai 2", sans-serif;
-        color: #aca7a7;
-        font-size: 20px;
-        margin: 20px;
-        max-width: fit-content;
+    div.perguntas input {
+        width: 4vw;
+        height: 4vw;
     }
 
-    p.expansao a {
-        font-family: "Baloo Bhai 2", sans-serif;
-        color: #293f9f;
-        font-weight: bold;
-        font-size: 20px;
+    div.perguntas label:hover {
+        width: 80%;
+        padding: 8px 15px;
     }
 
-    /*-----8-sobrenos.html-----*/
-
-
-    .conteudo-roxo2 {
-        display: flex;
-        justify-content: center;
-        gap: 2rem;
+    button.proximo {
+        width: 70%;
+        padding: 12px;
+        font-size: 4vw;
     }
+}
 
-    .integrante {
-        flex: 0 0 95%;
-        max-width: 65%;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+/* -----7-areadecontatoeajuda.html-----*/
 
-    .integrante h2 {
-        margin-bottom: 0.5rem;
-    }
+summary {
+    font-family: "Baloo Bhai 2", sans-serif;
+    color: #D0D0D0;
+    font-size: 20px;
+    margin: 10px;
+    list-style: none;
+    width: 90%;
+    border-bottom: 2px solid #6d80d46f;
+    padding-bottom: 18px;
+}
 
-    .integrante ul {
-        order: 2;
-        padding: 0;
-        margin: 0.5rem 0 1rem 0;
-        list-style: none;
-    }
+details {
+    max-width: 75%;
+}
 
-    .integrante img.sobreNos {
-        margin: 0 auto;
-    }
+section.faq {
+    padding: 0 5vw;
+}
+
+p.expansao {
+    font-family: "Baloo Bhai 2", sans-serif;
+    color: #aca7a7;
+    font-size: 20px;
+    margin: 20px;
+    max-width: fit-content;
+}
+
+p.expansao a {
+    font-family: "Baloo Bhai 2", sans-serif;
+    color: #293f9f;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*-----8-sobrenos.html-----*/
 
 
-    img.logo {
-        width: 60vw;
-        display: block;
-        margin: 2rem auto;
-    }
+.conteudo-roxo2 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.integrante {
+    flex: 0 0 95%;
+    max-width: 65%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.integrante h2 {
+    margin-bottom: 0.5rem;
+}
+
+.integrante ul {
+    order: 2;
+    padding: 0;
+    margin: 0.5rem 0 1rem 0;
+    list-style: none;
+}
+
+.integrante img.sobreNos {
+    margin: 0 auto;
+}
+
+
+img.logo {
+    width: 30vw;
+    display: block;
+    margin: 2rem auto;
 }
 
 /* atendimento dev web: 
