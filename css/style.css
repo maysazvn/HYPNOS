@@ -1,3 +1,5 @@
+/* arrumar 3.1 validação */
+
 body {
     margin: 0;
     padding: 0;
@@ -727,9 +729,8 @@ section.int {
 }
 
 section.tudo {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
     margin-top: 3rem;
     align-items: stretch;
