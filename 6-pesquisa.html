@@ -335,6 +335,19 @@
                 </button>
             </div>
 
+            <div class="verificarResultado">
+                <h2 class="verificacao">
+                    Obrigado por responder o quiz!
+                </h2>
+                <p>
+                    Clique no botão abaixo para verifcar o resultado!
+                </p>
+
+                <button class="verificacaoButon" onclick="verificar()">
+                    Verificar
+                </button>
+            </div>
+
             <div class="vinte2">
                 <h2 class="questao">Insônia</h2>
 
@@ -397,7 +410,7 @@
                 <div class="msg"></div>
             </div>
 
-            <div class="vinte5">
+            <div class="vinte6">
                 <h2 class="questao">Nenhum possível distúrbio identificado
                 </h2>
 
@@ -493,6 +506,10 @@
     div.msg {
         color: white;
     }
+
+    div.vinte2,.vinte3,.vinte4,.vinte5,.vinte6,.verificarResultado{
+        display: none;
+    }
 </style>
 
 <script>
@@ -517,6 +534,7 @@
     const dez9 = document.querySelector(".dez9");
     const vinte = document.querySelector(".vinte");
     const vinte1 = document.querySelector(".vinte1");
+    const verificarResultado = document.querySelector(".verificarResultado");
 
 
 
@@ -826,7 +844,7 @@
         if (resposta != null) {
             //realiza a transição de página
             vinte1.style.display = "none";
-            vinte2.style.display = "block";
+            verificarResultado.style.display = "block";
             //captura o valor que foi marcado pelo usuário
             resposta = resposta.value;
         } else {
