@@ -33,7 +33,6 @@ p {
     font-family: "Baloo Bhai 2", sans-serif;
     color: #D0D0D0;
     font-size: 1.5rem;
-    max-width: 50vw;
 }
 
 img {
@@ -983,7 +982,6 @@ section.rotina2 ul {
 
 section.rotina2 ul li {
     font-size: 1.3rem;
-    background: none;
     border-left: 3px solid #c5b1ff;
     color: #dcd5ff;
     padding: 8px 12px;
@@ -1885,7 +1883,6 @@ img.logo {
         padding: 12px;
         font-size: 4vw;
     }
-}
 
 /* -----7-areadecontatoeajuda.html-----*/
 
@@ -1901,7 +1898,7 @@ summary {
 }
 
 details {
-    max-width: 75%;
+    max-width: 85%;
 }
 
 section.faq {
@@ -1962,6 +1959,8 @@ img.logo {
     margin: 2rem auto;
 }
 
+}
+
 /* atendimento dev web: 
 footer: botao de topo nao fica embaixo, mandei email para o professor kennedy
 */
@@ -2013,5 +2012,9 @@ alinhamento pagina sobre nós */
     header nav ul li:hover ul {
     display: block;
     position: absolute;
+}
+
+details {
+    max-width: 45%;
 }
 }
