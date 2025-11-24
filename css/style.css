@@ -1,4 +1,8 @@
-/* arrumar 3.1 validação */
+/* celular::
+lista das fontes ta mt pequena
+responsividade tablet: 
+vídeos estão esticados
+fontes da 4.1*/
 
 body {
     margin: 0;
@@ -385,6 +389,7 @@ header nav ul li ul li a {
     padding: 8px 12px;
     display: block;
 }
+
 header nav ul li a {
     text-decoration: none;
     text-align: center;
@@ -999,7 +1004,7 @@ section.rotina2 ul li {
     font-size: 1.5rem;
     height: 0px;
     overflow: hidden;
-    transition: 0.5s height;
+    transition: 0.5s;
 }
 
 .conteudo-azul ul {
@@ -1164,7 +1169,7 @@ button.proximo:hover {
     cursor: pointer;
 }
 
-h2.verificacao{
+h2.verificacao {
     font-family: "Abhaya Libre", serif;
     font-weight: 800;
     font-size: 2rem;
@@ -1176,13 +1181,24 @@ h2.verificacao{
     margin-bottom: 2vw;
 }
 
-button.verificacaoButon{
-   padding: 10px 20px;
+p.verificacao {
+    text-align: center;
+}
+
+button.verificacaoButon {
+    padding: 10px 20px;
     color: #56349F;
     margin: 0 auto;
     display: block;
-    width: 40%;  
+    width: 40%;
     margin-top: 2vw;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+button.verificacaoButon:hover {
+    transform: scale(0.9);
+    transition: 0.2s;
 }
 
 /* -----7-areadecontatoeajuda.html-----*/
@@ -1453,7 +1469,7 @@ img.logo {
 
     /*-----header-----*/
 
-     header nav img.header {
+    header nav img.header {
         width: 15%;
     }
 
@@ -1491,7 +1507,7 @@ img.logo {
         right: 0;
     }
 
-    .navLinks li{
+    .navLinks li {
         margin: 1vw;
     }
 
@@ -1617,6 +1633,17 @@ img.logo {
         transition: 0.2s ease-in-out;
     }
 
+    button.roxo,
+    button.azul {
+        font-size: 1.5rem;
+    }
+
+    ul.fontesRoxas li,
+    ul.fontesAzuis li{
+        font-size: 1.2rem;
+        width: 100% !important;
+    }
+
     .botoes {
         display: block;
     }
@@ -1674,7 +1701,7 @@ img.logo {
         gap: 55px;
     }
 
-    p.teste{
+    p.teste {
         margin-bottom: 5vw;
     }
 
@@ -1842,7 +1869,7 @@ img.logo {
         font-size: 1.2rem;
         max-width: 80vw;
     }
-    
+
 
 
     section.rotina2 ul li {
@@ -1906,80 +1933,80 @@ img.logo {
         font-size: 4vw;
     }
 
-/* -----7-areadecontatoeajuda.html-----*/
+    /* -----7-areadecontatoeajuda.html-----*/
 
-summary {
-    font-family: "Baloo Bhai 2", sans-serif;
-    color: #D0D0D0;
-    font-size: 20px;
-    margin: 10px;
-    list-style: none;
-    width: 90%;
-    border-bottom: 2px solid #6d80d46f;
-    padding-bottom: 18px;
-}
+    summary {
+        font-family: "Baloo Bhai 2", sans-serif;
+        color: #D0D0D0;
+        font-size: 20px;
+        margin: 10px;
+        list-style: none;
+        width: 90%;
+        border-bottom: 2px solid #6d80d46f;
+        padding-bottom: 18px;
+    }
 
-details {
-    max-width: 85%;
-}
+    details {
+        max-width: 85%;
+    }
 
-section.faq {
-    padding: 0 5vw;
-}
+    section.faq {
+        padding: 0 5vw;
+    }
 
-p.expansao {
-    font-family: "Baloo Bhai 2", sans-serif;
-    color: #aca7a7;
-    font-size: 20px;
-    margin: 20px;
-    max-width: fit-content;
-}
+    p.expansao {
+        font-family: "Baloo Bhai 2", sans-serif;
+        color: #aca7a7;
+        font-size: 20px;
+        margin: 20px;
+        max-width: fit-content;
+    }
 
-p.expansao a {
-    font-family: "Baloo Bhai 2", sans-serif;
-    color: #293f9f;
-    font-weight: bold;
-    font-size: 20px;
-}
+    p.expansao a {
+        font-family: "Baloo Bhai 2", sans-serif;
+        color: #293f9f;
+        font-weight: bold;
+        font-size: 20px;
+    }
 
-/*-----8-sobrenos.html-----*/
-
-
-.conteudo-roxo2 {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-}
-
-.integrante {
-    flex: 0 0 95%;
-    max-width: 65%;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.integrante h2 {
-    margin-bottom: 0.5rem;
-}
-
-.integrante ul {
-    order: 2;
-    padding: 0;
-    margin: 0.5rem 0 1rem 0;
-    list-style: none;
-}
-
-.integrante img.sobreNos {
-    margin: 0 auto;
-}
+    /*-----8-sobrenos.html-----*/
 
 
-img.logo {
-    width: 30vw;
-    display: block;
-    margin: 2rem auto;
-}
+    .conteudo-roxo2 {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .integrante {
+        flex: 0 0 95%;
+        max-width: 65%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .integrante h2 {
+        margin-bottom: 0.5rem;
+    }
+
+    .integrante ul {
+        order: 2;
+        padding: 0;
+        margin: 0.5rem 0 1rem 0;
+        list-style: none;
+    }
+
+    .integrante img.sobreNos {
+        margin: 0 auto;
+    }
+
+
+    img.logo {
+        width: 30vw;
+        display: block;
+        margin: 2rem auto;
+    }
 
 }
 
@@ -2032,11 +2059,28 @@ alinhamento pagina sobre nós */
     }
 
     header nav ul li:hover ul {
-    display: block;
-    position: absolute;
+        display: block;
+        position: absolute;
+    }
+
+    details {
+        max-width: 45%;
+    }
 }
 
-details {
-    max-width: 45%;
-}
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .navLinks li {
+        margin: 3px;
+    }
+
+    button.roxo,
+    button.azul {
+        font-size: 1.5rem;
+    }
+
+    ul.fontesRoxas li,
+    ul.fontesAzuis li{
+        font-size: 1.2rem;
+    }
 }
