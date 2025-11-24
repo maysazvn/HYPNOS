@@ -2068,7 +2068,7 @@ alinhamento pagina sobre nós */
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 742px) and (max-width: 1024px) {
 
     .navLinks li {
         margin: 3px;
@@ -2082,5 +2082,9 @@ alinhamento pagina sobre nós */
     ul.fontesRoxas li,
     ul.fontesAzuis li{
         font-size: 1.2rem;
+    }
+
+    iframe{
+        height: 300px;
     }
 }
