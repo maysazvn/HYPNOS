@@ -14,7 +14,7 @@ function verificar() {
     let p9 = document.querySelector("input[name='p9']:checked");
     let p10 = document.querySelector("input[name='p10']:checked");
     let p11 = document.querySelector("input[name='p11']:checked");
-    let p12 = document.querySelector("input[name='p12]:checked");
+    let p12 = document.querySelector("input[name='p12']:checked");
     let p13 = document.querySelector("input[name='p13']:checked");
     let p14 = document.querySelector("input[name='p14']:checked");
     let p15 = document.querySelector("input[name='p15']:checked");
@@ -24,6 +24,14 @@ function verificar() {
     let p19 = document.querySelector("input[name='p19']:checked");
     let p20 = document.querySelector("input[name='p20']:checked");
     let p21 = document.querySelector("input[name='p21']:checked");
+    let vinte2 = document.querySelector(".vinte2");
+    let vinte3 = document.querySelector(".vinte3");
+    let vinte4 = document.querySelector(".vinte4");
+    let vinte5 = document.querySelector(".vinte5");
+    let vinte6 = document.querySelector(".vinte6");
+    let verificarResultado = document.querySelector(".verificarResultado");
+
+
 
     let mausHabitos = 0;
     let insonia = 0;
@@ -157,39 +165,39 @@ function verificar() {
         mausHabitos += 2;
     }
 
-    if(p16.value === "vezes"){
+    if (p16.value === "vezes") {
         mausHabitos++;
-    } else if(p16.value === "sim"){
+    } else if (p16.value === "sim") {
         mausHabitos += 2;
     }
 
-    if(p17.value === "vezes"){
+    if (p17.value === "vezes") {
         mausHabitos++;
-    } else if(p17.value === "sim"){
+    } else if (p17.value === "sim") {
         mausHabitos += 2;
     }
 
     if (p18.value === "nao") {
         mausHabitos += 2;
-    } else if(p18.value === "vezes"){
+    } else if (p18.value === "vezes") {
         mausHabitos++;
     }
 
-    if (p19.value === "sim"){
-        apneiaSono +=2
+    if (p19.value === "sim") {
+        apneiaSono += 2
         mausHabitos++
     }
 
-    if (p20.value === "sim"){
+    if (p20.value === "sim") {
         apneiaSono += 2;
-    } else if(p20.value === "nao"){
-        nenhumDisturbio +=2
+    } else if (p20.value === "nao") {
+        nenhumDisturbio += 2
     }
 
-    if (p21.value === vezes){
+    if (p21.value === "vezes") {
         mausHabitos++
-    } else if(p21.value === "nao"){
-        mausHabitos +=2;
+    } else if (p21.value === "nao") {
+        mausHabitos += 2;
     }
 
 
@@ -198,21 +206,26 @@ function verificar() {
     if (mausHabitos >= insonia && mausHabitos >= apneiaSono && mausHabitos >= narcolepsia && mausHabitos >= nenhumDisturbio) {
         resultado = "Maus Hábitos";
         vinte5.style.display = "block";
+        verificarResultado.style.display = "none";
 
-    } else if (insonia >=  mausHabitos && insonia >= apneiaSono && insonia >= narcolepsia && insonia >= nenhumDisturbio) {
+    } else if (insonia >= mausHabitos && insonia >= apneiaSono && insonia >= narcolepsia && insonia >= nenhumDisturbio) {
         resultado = "Insônia";
         vinte2.style.display = "block";
+        verificarResultado.style.display = "none";
 
-    } else if (apneiaSono >=  mausHabitos && apneiaSono >= insonia && apneiaSono >= narcolepsia && apneiaSono >= nenhumDisturbio) {
+    } else if (apneiaSono >= mausHabitos && apneiaSono >= insonia && apneiaSono >= narcolepsia && apneiaSono >= nenhumDisturbio) {
         resultado = "Apneia Do Sono";
         vinte3.style.display = "block";
+        verificarResultado.style.display = "none";
 
-    } else if (narcolepsia >=  mausHabitos && narcolepsia >= insonia && narcolepsia >= apneiaSono && narcolepsia >= nenhumDisturbio) {
+    } else if (narcolepsia >= mausHabitos && narcolepsia >= insonia && narcolepsia >= apneiaSono && narcolepsia >= nenhumDisturbio) {
         resultado = "Narcolepsia";
         vinte4.style.display = "block";
+        verificarResultado.style.display = "none";
 
-    } else if (nenhumDisturbio >=  mausHabitos && nenhumDisturbio >= insonia && nenhumDisturbio >= narcolepsia && nenhumDisturbio >= apneiaSono) {
+    } else if (nenhumDisturbio >= mausHabitos && nenhumDisturbio >= insonia && nenhumDisturbio >= narcolepsia && nenhumDisturbio >= apneiaSono) {
         resultado = "Nenhum possível distúrbio identificado";
         vinte6.style.display = "block";
+        verificarResultado.style.display = "none";
     }
 }
