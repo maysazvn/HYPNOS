@@ -1164,6 +1164,27 @@ button.proximo:hover {
     cursor: pointer;
 }
 
+h2.verificacao{
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 0.7rem;
+    margin: 0 auto;
+    color: #8663D2;
+    text-align: center;
+    margin-bottom: 2vw;
+}
+
+button.verificacaoButon{
+   padding: 10px 20px;
+    color: #56349F;
+    margin: 0 auto;
+    display: block;
+    width: 40%;  
+    margin-top: 2vw;
+}
+
 /* -----7-areadecontatoeajuda.html-----*/
 
 section.faq {
