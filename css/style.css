@@ -1,3 +1,15 @@
+/*colocar CUF por extenso
+
+investigada com um médico
+
+horário fixo regular
+
+perto do horário de dormir
+
+deixar a frequencia mais especifica
+
+médicos profissionais (tirar)*/
+
 body {
     margin: 0;
     padding: 0;
@@ -1177,6 +1189,47 @@ button.verificacaoButon:hover {
     transform: scale(0.9);
     transition: 0.2s;
 }
+
+div.um,
+    .dois,
+    .tres,
+    .quatro,
+    .cinco,
+    .seis,
+    .sete,
+    .oito,
+    .nove,
+    .dez,
+    .onze,
+    .doze,
+    .treze,
+    .quatorze,
+    .quinze,
+    .dez6,
+    .dez7,
+    .dez8,
+    .dez9,
+    .vinte,
+    .vinte1 {
+        display: none;
+    }
+
+    div.um {
+        display: block;
+    }
+
+    div.msg {
+        color: white;
+    }
+
+    div.vinte2,
+    .vinte3,
+    .vinte4,
+    .vinte5,
+    .vinte6,
+    .verificarResultado {
+        display: none;
+    }
 
 /* -----7-areadecontatoeajuda.html-----*/
 
