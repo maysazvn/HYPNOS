@@ -41,74 +41,77 @@ function verificar() {
 
 
     if (p1.value === "sim") {
-        mausHabitos += 2
+        mausHabitos += 1;
     } else if (p1.value === "vezes") {
-        mausHabitos++
+        mausHabitos++;
     } else if (p1.value === "nao") {
-        nenhumDisturbio++
+        nenhumDisturbio++;
+        insonia++;
     }
 
     if (p2.value === "sim") {
-        mausHabitos += 2
+        mausHabitos ++;
     } else if (p2.value === "vezes") {
-        mausHabitos++
+        mausHabitos++;
     } else if (p2.value === "nao") {
-        nenhumDisturbio++
+        nenhumDisturbio++;
+        insonia+= 2;
     }
 
     if (p3.value === "sim") {
-        mausHabitos += 2
+        mausHabitos += 2;
     } else if (p3.value === "vezes") {
-        mausHabitos++
+        mausHabitos++;
     } else if (p3.value === "nao") {
-        nenhumDisturbio++
+        nenhumDisturbio++;
     }
 
     if (p4.value === "sim") {
-        mausHabitos += 2;
+        mausHabitos ++;
+        insonia++;
     } else if (p4.value === "vezes") {
-        mausHabitos++
+        mausHabitos++;
     } else if (p4.value === "nao") {
-        nenhumDisturbio++
+        nenhumDisturbio++;
     }
     if (p5.value === "sim") {
-        mausHabitos += 2;
+        mausHabitos ++;
     } else if (p5.value === "vezes") {
-        mausHabitos++
+        mausHabitos++;
     } else if (p5.value === "nao") {
-        nenhumDisturbio++
+        nenhumDisturbio++;
     }
 
     if (p6.value === "sim") {
-        insonia += 2
+        insonia += 2;
     } else if (p6.value === "vezes") {
-        insonia++
+        insonia++;
     } else if (p6.value === "nao") {
-        nenhumDisturbio++
+        nenhumDisturbio++;
     }
 
     if (p7.value === "sim") {
         insonia += 2;
     } else if (p7.value === "vezes") {
-        insonia++
+        insonia++;
     } else if (p7.value === "nao") {
-        nenhumDisturbio++
+        nenhumDisturbio++;
     }
 
     if (p8.value === "sim") {
         apneiaSono += 2;
     } else if (p8.value === "vezes") {
-        apneiaSono++
+        apneiaSono++;
     } else if (p8.value === "nao") {
-        nenhumDisturbio++
+        nenhumDisturbio++;
     }
 
     if (p9.value === "sim") {
         apneiaSono += 2;
     } else if (p9.value === "vezes") {
-        apneiaSono++
+        apneiaSono++;
     } else if (p9.value === "nao") {
-        nenhumDisturbio++
+        nenhumDisturbio++;
     }
 
     if (p10.value === "sim") {
@@ -116,33 +119,34 @@ function verificar() {
         insonia++;
         narcolepsia++;
     } else if (p10.value === "vezes") {
-        apneiaSono++
+        apneiaSono++;
     } else if (p10.value === "nao") {
-        nenhumDisturbio++
+        nenhumDisturbio++;
     }
 
     if (p11.value === "sim") {
         narcolepsia += 2;
+        apneiaSono+= 2;
     } else if (p11.value === "vezes") {
-        narcolepsia++
+        narcolepsia++;
     } else if (p11.value === "nao") {
-        nenhumDisturbio++
+        nenhumDisturbio++;
     }
 
     if (p12.value === "sim") {
         insonia += 2;
     } else if (p12.value === "vezes") {
-        insonia++
+        insonia++;
     } else if (p12.value === "nao") {
-        nenhumDisturbio++
+        nenhumDisturbio++;
     }
 
     if (p13.value === "sim") {
         apneiaSono += 2;
     } else if (p13.value === "vezes") {
-        apneiaSono++
+        apneiaSono++;
     } else if (p13.value === "nao") {
-        nenhumDisturbio++
+        nenhumDisturbio++;
     }
 
     if (p14.value === "sim") {
@@ -160,9 +164,9 @@ function verificar() {
     }
 
     if (p15.value === "vezes") {
-        mausHabitos++
+        mausHabitos++;
     } else if (p15.value === "nao") {
-        mausHabitos += 2;
+        mausHabitos ++;
     }
 
     if (p16.value === "vezes") {
@@ -175,6 +179,7 @@ function verificar() {
         mausHabitos++;
     } else if (p17.value === "sim") {
         mausHabitos += 2;
+        insonia+= 2;
     }
 
     if (p18.value === "nao") {
@@ -184,20 +189,20 @@ function verificar() {
     }
 
     if (p19.value === "sim") {
-        apneiaSono += 2
-        mausHabitos++
+        apneiaSono += 2;
+        mausHabitos++;
     }
 
     if (p20.value === "sim") {
         apneiaSono += 2;
     } else if (p20.value === "nao") {
-        nenhumDisturbio += 2
+        nenhumDisturbio += 2;
     }
 
     if (p21.value === "vezes") {
-        mausHabitos++
+        mausHabitos++;
     } else if (p21.value === "nao") {
-        mausHabitos += 2;
+        mausHabitos += 2;;
     }
 
 
