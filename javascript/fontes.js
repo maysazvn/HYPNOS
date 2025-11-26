@@ -29,13 +29,16 @@ function abrirBotao() {
       fontesTres.style.height = fontesTres.scrollHeight + "px";
     }
   }
+}
 
-  if (fontesQuatro) {
+function abrirBotao2() {
+   let fontesQuatro = document.querySelector(".fontesBrancas2");
+
+    if (fontesQuatro) {
     if (fontesQuatro.style.height == fontesQuatro.scrollHeight + "px") {
       fontesQuatro.style.height = "0px";
     } else {
       fontesQuatro.style.height = fontesQuatro.scrollHeight + "px";
     }
   }
-
 }
