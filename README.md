@@ -32,7 +32,7 @@ DIÁRIO DO TRABALHO:
 ---
 
 
-## ** 2ª e 3ª Semana - 16/07 a 30/07**
+## 2ª e 3ª Semana - 16/07 a 30/07
 ### Divisão geral
 - **Diagrama do site (design):** Maysa, Clara, Pietro  
 - **Conteúdo:** André, Samuel, Joély  
@@ -50,7 +50,7 @@ DIÁRIO DO TRABALHO:
 
  ---
 
- ## **📌 4ª a 9ª Semana - 13/08**
+ ## 📌 4ª a 9ª Semana - 13/08
 **Presentes:** Todos
 
 #### Atividades feitas
