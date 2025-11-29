@@ -16,7 +16,7 @@ DIÁRIO DO TRABALHO:
 - **Samuel Gadotti**
 - **Joély Vitória** (participou da etapa inicial)
 
-## 1ª Semana - 09/07 a 16/07
+## 📌 1ª Semana - 09/07 a 16/07
 ### Definição do grupo e do tema
 **Nome do grupo:** HYPNOS  
 **Tema:** Qualidade do Sono
@@ -32,7 +32,7 @@ DIÁRIO DO TRABALHO:
 ---
 
 
-## 2ª e 3ª Semana - 16/07 a 30/07
+## 📌 2ª e 3ª Semana - 16/07 a 30/07
 ### Divisão geral
 - **Diagrama do site (design):** Maysa, Clara, Pietro  
 - **Conteúdo:** André, Samuel, Joély  
